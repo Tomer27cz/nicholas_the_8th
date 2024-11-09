@@ -1,0 +1,10 @@
+.cache
+.gitattributes
+.gitignore
+.idea/
+.github/
+.__pycache__/
+dev_func/
+db/guilds/
+.env
+.env_real

@@ -1,0 +1,11 @@
+services:
+  bot:
+    profiles:
+      - bot
+    build: .
+    command: python -u /app/main.py >> /app/logs/bot.log 2>&1
+    privileged: true
+    volumes:
+      - .:/app
+    container_name: bot
+    restart: always

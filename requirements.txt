@@ -1,0 +1,13 @@
+discord
+PyNaCl
+youtube-search-python
+asyncio
+yt_dlp
+spotipy
+soundcloud-lib
+aiohttp
+SQLAlchemy
+flask-sqlalchemy
+alembic
+xmltodict
+python-dotenv
