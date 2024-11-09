@@ -4,7 +4,7 @@
 
 This is a severally stripped down version of the original project [Nicholas the 7th](https://github.com/Tomer27cz/nicholas_the_7th).
 
-### The bot can now only has these features:
+### The bot now only has these features:
 
 - Music streaming from `YouTube`, `SoundCloud`, and `Spotify (not really - YouTube search is used)`
 - Radio streaming from `radia.cz`, `radio.garden`, and `tunein.com`
