@@ -64,8 +64,7 @@ target/
 *.db
 .env
 .env_real
-/logs
+.env_test
 logs/data.log
 logs/log.log
-/logs
 *.log
