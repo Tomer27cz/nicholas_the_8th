@@ -28,10 +28,6 @@ This is a severally stripped down version of the original project [Nicholas the 
 
 It is not meant to be used by anyone else, but if you want to use it, feel free to do so.
 
-## [Invite](https://discord.com/oauth2/authorize?client_id=1304632149894238209)
-
-The bot is currently hosted by me. So if you want to, you can [Invite](https://discord.com/oauth2/authorize?client_id=1304632149894238209) him.
-
 ## [Setup Guide](.github/SETUP.md)
 
 ### Live Search
