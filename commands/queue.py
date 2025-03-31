@@ -1,6 +1,6 @@
 import traceback
 
-import youtubesearchpython.__future__ as ytsp
+import youtube_search_python.__future__ as ytsp
 from classes.data_classes import ReturnData
 from classes.video_class import Queue
 from classes.typed_dictionaries import VideoInfo, RadioGardenInfo, RadioInfoDict, TuneInDescribe, RadiosJSON
@@ -58,15 +58,21 @@ async def queue_command_def(ctx,
     log(ctx, 'queue_command_def', locals(), log_type='function', author=ctx.author)
     guild_id, author, guild_object = ctx.guild.id, {'id': ctx.author.id, 'name': ctx.author.name}, ctx.guild
 
+    print(f'queue_command_def -> start_time: {time()}')
+
     if not url:
         message = txt(guild_id, glob, "`url` is **required**") + f' {glob.notif}'
         if not mute_response:
             await ctx.reply(message, ephemeral=True)
         return ReturnData(False, message)
 
+
+    start1 = time()
     # Get url type
     url_type, url = get_url_type(url)
     yt_id = extract_yt_id(url)
+    print(f'queue_command_def -> get_url_type: {time() - start1}')
+
 
     if url_type in ['Spotify Playlist', 'Spotify Album', 'Spotify Track', 'Spotify URL']:
         if not glob.sp:
@@ -85,8 +91,15 @@ async def queue_command_def(ctx,
 
     if url_type == 'YouTube Video' or yt_id is not None:
         url = f"https://www.youtube.com/watch?v={yt_id}"
+
+        start2 = time()
         video = await Queue.create(glob, 'Video', author, guild_id, url=url)
+        print(f'queue_command_def -> Queue.create: {time() - start2}')
+
+        start3 = time()
         message = await to_queue(glob, guild_id, video, position=position, copy_video=False)
+        print(f'queue_command_def -> to_queue: {time() - start3}')
+
         if not mute_response:
             await ctx.reply(message, ephemeral=ephemeral)
         return ReturnData(True, message, video)

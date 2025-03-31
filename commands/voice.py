@@ -132,11 +132,24 @@ async def join_def(ctx, glob: GlobalVars, channel_id=None, mute_response: bool =
     :param mute_response: Should bot response be muted
     :return: ReturnData
     """
+
+    import time
+
+    print(f"join_def -> start_time: {time.time()}")
+
     log(ctx, 'join_def', options=locals(), log_type='function', author=ctx.author)
     guild_id, guild_object = ctx.guild.id, ctx.guild
 
     # define author channel (for ide)
     author_channel = None
+
+
+
+
+
+
+
+    start1 = time.time()
 
     if not channel_id:
         if not ctx.author.voice:
@@ -153,8 +166,23 @@ async def join_def(ctx, glob: GlobalVars, channel_id=None, mute_response: bool =
                     await ctx.reply(message, ephemeral=True)
                 return ReturnData(True, message)
 
+    print(f"join_def -> get channel id: {time.time() - start1}")
+
+
+
+
+
+
+
     try:
+
+        start2 = time.time()
         voice_channel = author_channel if author_channel else glob.bot.get_channel(int(channel_id))
+        print(f"join_def -> get voice channel: {time.time() - start2}")
+
+
+
+        start3 = time.time()
 
         # check if bot has permission to join channel
         if not voice_channel.permissions_for(guild_object.me).connect:
@@ -174,11 +202,26 @@ async def join_def(ctx, glob: GlobalVars, channel_id=None, mute_response: bool =
             await ctx.reply(message, ephemeral=True)
             return ReturnData(False, message)
 
+        print(f"join_def -> check permissions: {time.time() - start3}")
+
+
+
+        start4 = time.time()
+
         if guild_object.voice_client:
             await guild_object.voice_client.disconnect(force=True)
 
+        print(f"join_def -> disconnect: {time.time() - start4}")
+
+
+
+        start5 = time.time()
         await voice_channel.connect()
+        print(f"join_def -> connect: {time.time() - start5}")
+
+        start6 = time.time()
         await guild_object.change_voice_state(channel=voice_channel, self_deaf=True)
+        print(f"join_def -> change_voice_state: {time.time() - start6}")
 
         message = f"{txt(guild_id, glob, 'Joined voice channel:')}  `{voice_channel.name}`" + f' {glob.notif}'
         if not mute_response:

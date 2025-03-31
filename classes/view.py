@@ -58,6 +58,9 @@ class PlayerControlView(View):
             self.message = None
 
     async def on_timeout(self) -> None:
+        if self.is_finished():
+            return
+
         for item in self.children:
             item.disabled = True
 
@@ -67,55 +70,67 @@ class PlayerControlView(View):
     @discord.ui.button(emoji=react_dict['play'], style=discord.ButtonStyle.blurple, custom_id='play')
     async def callback(self, interaction, button):
         voice: discord.voice_client.VoiceClient = get_voice_client(self.glob.bot.voice_clients, guild=self.guild)
-        if voice:
-            if voice.is_paused():
-                voice.resume()
-                # noinspection PyUnresolvedReferences
-                pause_button = [x for x in self.children if x.custom_id == 'pause'][0]
-                pause_button.style = discord.ButtonStyle.blurple
-                button.style = discord.ButtonStyle.grey
-                await interaction.response.edit_message(view=self)
-            elif voice.is_playing():
-                await interaction.response.send_message(txt(self.guild_id, self.glob, "Player **already resumed!**"),
-                                                        ephemeral=True)
-            else:
-                await interaction.response.send_message(txt(self.guild_id, self.glob, "No audio playing"), ephemeral=True)
-        else:
+
+        if not voice:
             await interaction.response.send_message(txt(self.guild_id, self.glob, "No audio"), ephemeral=True)
+            return
+
+        if voice.is_playing():
+            await interaction.response.send_message(txt(self.guild_id, self.glob, "Player **already playing!**"), ephemeral=True)
+            return
+
+        if voice.is_paused():
+            voice.resume()
+            # noinspection PyUnresolvedReferences
+            pause_button = [x for x in self.children if x.custom_id == 'pause'][0]
+            pause_button.style = discord.ButtonStyle.blurple
+            button.style = discord.ButtonStyle.grey
+            await interaction.response.edit_message(view=self)
+            return
+
+        await interaction.response.send_message(txt(self.guild_id, self.glob, "No audio playing"), ephemeral=True)
 
     @discord.ui.button(emoji=react_dict['pause'], style=discord.ButtonStyle.blurple, custom_id='pause')
     async def pause_callback(self, interaction, button):
         voice: discord.voice_client.VoiceClient = get_voice_client(self.glob.bot.voice_clients, guild=self.guild)
-        if voice:
-            if voice.is_playing():
-                voice.pause()
-                # noinspection PyUnresolvedReferences
-                play_button = [x for x in self.children if x.custom_id == 'play'][0]
-                play_button.style = discord.ButtonStyle.blurple
-                button.style = discord.ButtonStyle.grey
-                await interaction.response.edit_message(view=self)
-            elif voice.is_paused():
-                await interaction.response.send_message(txt(self.guild_id, self.glob, "Player **already paused!**"),
-                                                        ephemeral=True)
-            else:
-                await interaction.response.send_message(txt(self.guild_id, self.glob, "No audio playing"), ephemeral=True)
-        else:
+
+        if not voice:
             await interaction.response.send_message(txt(self.guild_id, self.glob, "No audio"), ephemeral=True)
+            return
+
+        if voice.is_paused():
+            await interaction.response.send_message(txt(self.guild_id, self.glob, "Player **already paused!**"), ephemeral=True)
+            return
+
+        if voice.is_playing():
+            voice.pause()
+            # noinspection PyUnresolvedReferences
+            play_button = [x for x in self.children if x.custom_id == 'play'][0]
+            play_button.style = discord.ButtonStyle.blurple
+            button.style = discord.ButtonStyle.grey
+            await interaction.response.edit_message(view=self)
+            return
+
+        await interaction.response.send_message(txt(self.guild_id, self.glob, "No audio playing"), ephemeral=True)
+
 
     # noinspection PyUnusedLocal
     @discord.ui.button(emoji=react_dict['stop'], style=discord.ButtonStyle.red, custom_id='stop')
     async def stop_callback(self, interaction, button):
         voice: discord.voice_client.VoiceClient = get_voice_client(self.glob.bot.voice_clients, guild=self.guild)
-        if voice:
-            if voice.is_playing() or voice.is_paused():
-                voice.stop()
-                guild(self.glob, interaction.guild_id).options.stopped = True
-                self.glob.ses.commit()
-                await interaction.response.edit_message(view=None)
-            else:
-                await interaction.response.send_message(txt(self.guild_id, self.glob, "No audio playing"), ephemeral=True)
-        else:
+
+        if not voice:
             await interaction.response.send_message(txt(self.guild_id, self.glob, "No audio"), ephemeral=True)
+            return
+
+        if voice.is_playing() or voice.is_paused():
+            voice.stop()
+            guild(self.glob, interaction.guild_id).options.stopped = True
+            self.glob.ses.commit()
+            await interaction.response.edit_message(view=None)
+            return
+
+        await interaction.response.send_message(txt(self.guild_id, self.glob, "No audio playing"), ephemeral=True)
 
 class SearchOptionView(View):
     def __init__(self, ctx, glob: GlobalVars, search_data: list[VideoInfo], force=False, from_play=False):

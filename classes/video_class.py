@@ -1,5 +1,5 @@
 from __future__ import annotations
-from youtubesearchpython.__future__ import Video
+from youtube_search_python.__future__ import Video
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:

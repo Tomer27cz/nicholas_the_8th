@@ -1,3 +1,5 @@
+from turtledemo.penrose import start
+
 from classes.video_class import Queue
 from classes.data_classes import ReturnData
 
@@ -20,6 +22,8 @@ import commands.autocomplete
 import asyncio
 import random
 
+from time import time
+
 async def play_def(ctx, glob: GlobalVars,
                    url=None,
                    force: bool=False,
@@ -33,16 +37,44 @@ async def play_def(ctx, glob: GlobalVars,
                    ) -> ReturnData:
     log(ctx, 'play_def', options=locals(), log_type='function', author=ctx.author)
     guild_id, guild_object = ctx.guild.id, ctx.guild
+
+    print(f"play_def -> start_time: {time()}")
+
+    start_time1 = time()
     db_guild = guild(glob, guild_id)
+    print(f"play_def -> guild_db: {time() - start_time1}")
+
+
+
+
+
+    start_time2 = time()
 
     if not ctx.interaction.response.is_done():
         await ctx.defer()
+
+    print(f"play_def -> defer: {time() - start_time2}")
+
+
+
+
+    start_time2_2 = time()
 
     response = ReturnData(False, txt(guild_id, glob, 'Unknown error'))
 
     if after and db_guild.options.stopped or after and player_id != db_guild.options.player_id or after and no_after is True:
         log(ctx, f"play_def -> loop stopped (stopped: {db_guild.options.stopped}, id: {player_id}, db_id: {db_guild.options.player_id}, no_after: {no_after})", log_type='function')
         return ReturnData(False, txt(guild_id, glob, "Stopped play next loop"))
+
+    print(f"play_def -> player_id: {time() - start_time2_2}")
+
+
+
+
+
+
+
+    start_time3 = time()
 
     voice = guild_object.voice_client
     if not voice:
@@ -52,12 +84,23 @@ async def play_def(ctx, glob: GlobalVars,
                 await ctx.reply(message)
             return ReturnData(False, message)
 
+    print(f"play_def -> voice_check: {time() - start_time3}")
+
+
+
+
+
     if url:
         # if voice:
         #     force = True if voice.is_playing() else force
 
+        start_time4 = time()
+
         position = 0 if force else None
         response = await commands.queue.queue_command_def(ctx, glob, url=url, position=position, mute_response=True, force=force, from_play=True, no_search=no_search)
+
+        print(f"play_def -> queue_command_def: {time() - start_time4}")
+
 
         if not response or not response.response:
             if not mute_response:
@@ -70,6 +113,19 @@ async def play_def(ctx, glob: GlobalVars,
                 await ctx.reply(response.message)
             return response
 
+
+
+
+
+
+
+
+
+
+
+
+    start_time5 = time()
+
     if not guild_object.voice_client:
         join_response = await commands.voice.join_def(ctx, glob, None, True)
         voice = guild_object.voice_client
@@ -78,6 +134,18 @@ async def play_def(ctx, glob: GlobalVars,
                 await ctx.reply(join_response.message)
             return join_response
 
+    print(f"play_def -> join_def: {time() - start_time5}")
+
+
+
+
+
+
+
+
+
+
+    start_time6 = time()
     if voice.is_playing():
         if not force:
             if url:
@@ -99,6 +167,11 @@ async def play_def(ctx, glob: GlobalVars,
 
         voice.stop()
 
+    print(f"play_def -> voice_check2: {time() - start_time6}")
+
+
+    start_time7 = time()
+
     if voice.is_paused():
         return await commands.voice.resume_def(ctx, glob)
 
@@ -108,8 +181,20 @@ async def play_def(ctx, glob: GlobalVars,
             await ctx.reply(message)
         return ReturnData(False, message)
 
+    print(f"play_def -> voice+queue_check: {time() - start_time7}")
+
+
+    start_time8 = time()
     db_guild = guild(glob, guild_id)
+    print(f"play_def -> got guild_db again: {time() - start_time8}")
+
+    start_time9 = time()
     video = db_guild.queue[0]
+    print(f"play_def -> set video: {time() - start_time9}")
+
+
+
+    start_time10 = time()
 
     stream_url = video.url
     if video.class_type in ['RadioCz', 'RadioGarden', 'RadioTuneIn']:
@@ -125,34 +210,79 @@ async def play_def(ctx, glob: GlobalVars,
             await ctx.reply(message)
         return ReturnData(False, message)
 
+    print(f"play_def -> set stream_url: {time() - start_time10}")
+
+
+
+
+
+
+
+    start_time11 = time()
+
     if not force:
         db_guild.options.stopped = False
         glob.ses.commit()
+
+    print(f"play_def -> set stopped + commit: {time() - start_time11}")
+
+
+
+    start_time12 = time()
 
     # Set new player id
     p_id = player_id if player_id else random.choice([i for i in range(0, 9) if i not in [db_guild.options.player_id]])
     db_guild.options.player_id = p_id
 
+    print(f"play_def -> set player_id: {time() - start_time12}")
+
+
+
+
+
+
     try:
+
+
+        start_time13 = time()
         source, additional_data = await GetSource.create_source(glob, guild_id, stream_url, source_type=video.class_type, video_class=video)
+        print(f"play_def -> create_source: {time() - start_time13}")
+
+
+        start_time14 = time()
         voice.play(source, after=lambda e: asyncio.run_coroutine_threadsafe(play_def(ctx, glob, after=True, player_id=p_id, no_after=no_after), glob.bot.loop))
+        print(f"play_def -> voice.play: {time() - start_time14}")
 
+
+        start_time15 = time()
         await commands.voice.volume_command_def(ctx, glob, db_guild.options.volume * 100, False, True)
+        print(f"play_def -> volume_command_def: {time() - start_time15}")
 
+
+        start_time16 = time()
         db_guild.options.stopped = False
         await set_started(glob, video, guild_object)
+        print(f"play_def -> set_started: {time() - start_time16}")
 
+        start_time17 = time()
         glob.ses.query(Queue).filter_by(id=video.id).delete()
         glob.ses.commit()
+        print(f"play_def -> delete from queue: {time() - start_time17}")
 
+
+        start_time18 = time()
         update(glob)
+        print(f"play_def -> update: {time() - start_time18}")
 
+        start_time19 = time()
         # Response
         options = db_guild.options
         response_type = options.response_type
 
         message = f'{txt(guild_id, glob, "Now playing")} [`{video.title}`](<{video.url}>) {glob.notif}'
-        view = classes.view.PlayerControlView(ctx, glob)
+        view = classes.view.PlayerControlView(ctx, glob) # TODO: creating view here is not necessary (it's not used)
+
+        print(f"play_def -> total: {time() - start_time1}")
 
         if response_type == 'long' or embed:
             if not mute_response:
@@ -168,6 +298,7 @@ async def play_def(ctx, glob: GlobalVars,
                 if options.buttons:
                     view.message = await ctx.reply(message, view=view)
                 else:
+                    print(f"play_def -> sending message: {time() - start_time19}")
                     await ctx.reply(message)
             return ReturnData(True, message)
 

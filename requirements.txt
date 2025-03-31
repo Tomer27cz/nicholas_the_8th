@@ -1,6 +1,5 @@
-discord
+discord.py
 PyNaCl
-youtube-search-python
 asyncio
 yt_dlp
 spotipy
