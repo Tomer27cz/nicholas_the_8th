@@ -1,6 +1,6 @@
 {
     "273": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "273",
         "name": "\u010cesk\u00fd rozhlas Radio\u017eurn\u00e1l",
         "logoSvg": "https://radia.cz/media/images/0001/01/fa8b8a5971c12d9c291206ab37ead477b9e3d066.svg",
@@ -51,102 +51,10 @@
                 }
             ]
         },
-        "listened": "389936"
-    },
-    "102": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "102",
-        "name": "R\u00e1dio BLAN\u00cdK",
-        "logoSvg": "https://radia.cz/media/images/0001/01/6507e3e917644aa6d58230de9e2d7f91e1f24b99.svg",
-        "logo": "https://radia.cz/media/images/0001/01/1d8df28dd91d3e151438904a49a2c3c5c4b4a901.png",
-        "link": "https://radia.cz/radia/radio-blanik",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-blanik.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-blanik.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "85",
-                    "name": "R\u00e1dio BLAN\u00cdK aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIKAAC.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "86",
-                    "name": "R\u00e1dio BLAN\u00cdK aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/blanikfm64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "89",
-                    "name": "R\u00e1dio BLAN\u00cdK aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/blanikfm128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "90",
-                    "name": "R\u00e1dio BLAN\u00cdK aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "508",
-                    "name": "R\u00e1dio BLAN\u00cdK mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/blanikfm128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "89",
-                    "name": "R\u00e1dio BLAN\u00cdK aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/blanikfm128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "362280"
+        "listened": "466461"
     },
     "95": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "95",
         "name": "Rock Radio",
         "logoSvg": "https://radia.cz/media/images/0001/01/ea2701fccf99ea87da226df04b8e9b58579b6ff7.svg",
@@ -223,10 +131,114 @@
                 }
             ]
         },
-        "listened": "354522"
+        "listened": "429310"
+    },
+    "102": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "102",
+        "name": "R\u00e1dio BLAN\u00cdK",
+        "logoSvg": "https://radia.cz/media/images/0001/01/6507e3e917644aa6d58230de9e2d7f91e1f24b99.svg",
+        "logo": "https://radia.cz/media/images/0001/01/1d8df28dd91d3e151438904a49a2c3c5c4b4a901.png",
+        "link": "https://radia.cz/radia/radio-blanik",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-blanik.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-blanik.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "85",
+                    "name": "R\u00e1dio BLAN\u00cdK aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIKAAC.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "89",
+                    "name": "R\u00e1dio BLAN\u00cdK aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/blanikfm128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "86",
+                    "name": "R\u00e1dio BLAN\u00cdK aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/blanikfm64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "90",
+                    "name": "R\u00e1dio BLAN\u00cdK aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "522",
+                    "name": "R\u00e1dio BLAN\u00cdK aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice3.radia.cz/blanikfm128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "508",
+                    "name": "R\u00e1dio BLAN\u00cdK mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/blanikfm128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "89",
+                    "name": "R\u00e1dio BLAN\u00cdK aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/blanikfm128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "416627"
     },
     "279": {
-        "@u": "2024-11-09 01:15:13",
+        "@u": "2025-03-31 23:00:11",
         "id": "279",
         "name": "\u010cesk\u00fd rozhlas Dvojka",
         "logoSvg": "https://radia.cz/media/images/0001/01/c30955c065ca1f3c0f80cc10f144e1f7fcf924dc.svg",
@@ -277,10 +289,10 @@
                 "def3g": "0"
             }
         },
-        "listened": "247051"
+        "listened": "291347"
     },
     "278": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "278",
         "name": "\u010cesk\u00fd rozhlas Plus",
         "logoSvg": "https://radia.cz/media/images/0001/01/14b7df3f28b29dc043a84dcb0d37753390c4e5f6.svg",
@@ -345,10 +357,10 @@
                 }
             ]
         },
-        "listened": "187138"
+        "listened": "234211"
     },
     "18": {
-        "@u": "2024-11-09 01:20:53",
+        "@u": "2025-03-31 23:00:12",
         "id": "18",
         "name": "R\u00e1dio Humor",
         "logoSvg": "https://radia.cz/media/images/0001/01/9159df74ff5da694889e9418c1e2439632913328.svg",
@@ -449,10 +461,10 @@
                 }
             ]
         },
-        "listened": "174903"
+        "listened": "179024"
     },
     "103": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "103",
         "name": "Blan\u00edk CZ",
         "logoSvg": "https://radia.cz/media/images/0001/01/fed3d66b1821fa14caf6498fd0a5c2c0ceab577b.svg",
@@ -541,14 +553,14 @@
                 }
             ]
         },
-        "listened": "132177"
+        "listened": "152100"
     },
     "19": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "19",
         "name": "Fajn Radio",
-        "logoSvg": "https://radia.cz/media/images/0001/01/92f2001c1241cff5a5d1f7a269a6384fccc74fcc.svg",
-        "logo": "https://radia.cz/media/images/0001/01/3984341983290f74d76cea1a156fe1fc6413f0dc.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/b65514b7cb37d5f159f988822e8b1dab29edfc8b.svg",
+        "logo": "https://radia.cz/media/images/0001/01/257017ab67f58e03b34013f524ebb4c9fe453732.png",
         "link": "https://radia.cz/radia/fajn-radio",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/fajn-radio.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/fajn-radio.xml",
@@ -608,18 +620,6 @@
                     "def3g": "0"
                 },
                 {
-                    "id": "448",
-                    "name": "Fajn Radio mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/fajn128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
                     "id": "447",
                     "name": "Fajn Radio aac 128kb",
                     "type": "aac",
@@ -630,13 +630,25 @@
                     "url": "https://ice2.radia.cz/fajn128.aac",
                     "defWifi": "1",
                     "def3g": "0"
+                },
+                {
+                    "id": "448",
+                    "name": "Fajn Radio mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/fajn128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
                 }
             ]
         },
-        "listened": "99529"
+        "listened": "130765"
     },
     "168": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:04",
         "id": "168",
         "name": "R\u00e1dio Pov\u00eddka",
         "logoSvg": "https://radia.cz/media/images/0001/01/f5c0ffebd2a41fb1c5fd4000c61315f12d322f4f.svg",
@@ -701,14 +713,14 @@
                 }
             ]
         },
-        "listened": "98876"
+        "listened": "114858"
     },
     "67": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "67",
         "name": "Hitr\u00e1dio Orion",
-        "logoSvg": "https://radia.cz/media/images/0001/01/8433f00dc501dc471b6aafcef7893d35ac3b0206.svg",
-        "logo": "https://radia.cz/media/images/0001/01/c9279b7b0e81e9a968f39740e16e89b99e586b61.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/8b80a52468f04d3fb8caeea7bf0371db561356f9.svg",
+        "logo": "https://radia.cz/media/images/0001/01/d5c8b7de05295154bd105ca797bfb603e54e9ebd.png",
         "link": "https://radia.cz/radia/hitradio-orion",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-orion.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-orion.xml",
@@ -793,50 +805,10 @@
                 }
             ]
         },
-        "listened": "63625"
-    },
-    "281": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "281",
-        "name": "\u010cesk\u00fd rozhlas Brno",
-        "logoSvg": "https://radia.cz/media/images/0001/01/ee2c6122d145ac507f490fbe091027243196a130.svg",
-        "logo": "https://radia.cz/media/images/0001/01/6ffeafe559c112cf0b08a56064456a3d3dcc884e.png",
-        "link": "https://radia.cz/radia/cesky-rozhlas-brno",
-        "nowplay": "https://radia.cz/xmlapp2/nowplay-281.xml",
-        "playlist": "https://radia.cz/xmlapp2/playlist-281.xml",
-        "program": "https://radia.cz/data/program/281.xml",
-        "streams": {
-            "stream": [
-                {
-                    "id": "246",
-                    "name": "\u010cesk\u00fd rozhlas Brno aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/brno_low.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "247",
-                    "name": "\u010cesk\u00fd rozhlas Brno mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/brno.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "56003"
+        "listened": "74749"
     },
     "321": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "321",
         "name": "Radio\u017eurn\u00e1l Sport",
         "logoSvg": "https://radia.cz/media/images/0001/01/644a4bb6a052db337401900b0c6c71ef9f4792eb.svg",
@@ -873,14 +845,54 @@
                 }
             ]
         },
-        "listened": "52297"
+        "listened": "68070"
+    },
+    "281": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "281",
+        "name": "\u010cesk\u00fd rozhlas Brno",
+        "logoSvg": "https://radia.cz/media/images/0001/01/ee2c6122d145ac507f490fbe091027243196a130.svg",
+        "logo": "https://radia.cz/media/images/0001/01/6ffeafe559c112cf0b08a56064456a3d3dcc884e.png",
+        "link": "https://radia.cz/radia/cesky-rozhlas-brno",
+        "nowplay": "https://radia.cz/xmlapp2/nowplay-281.xml",
+        "playlist": "https://radia.cz/xmlapp2/playlist-281.xml",
+        "program": "https://radia.cz/data/program/281.xml",
+        "streams": {
+            "stream": [
+                {
+                    "id": "246",
+                    "name": "\u010cesk\u00fd rozhlas Brno aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://rozhlas.stream/brno_low.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "247",
+                    "name": "\u010cesk\u00fd rozhlas Brno mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://rozhlas.stream/brno.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "65599"
     },
     "250": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "250",
         "name": "Hitr\u00e1dio \u010cern\u00e1 Hora",
-        "logoSvg": "https://radia.cz/media/images/0001/01/312892890d8fa549c4d5eaeea5acc687e74370b2.svg",
-        "logo": "https://radia.cz/media/images/0001/01/776f3fe52f7b6b7d971e8edba3548bb79a6773d8.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/f9c4034ae345b572c006c55e3058d9a0ba25e296.svg",
+        "logo": "https://radia.cz/media/images/0001/01/76f5b07b339c7195bb00ca43b8624971a0d262b4.png",
         "link": "https://radia.cz/radia/cerna-hora",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-cerna-hora.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-cerna-hora.xml",
@@ -965,10 +977,10 @@
                 }
             ]
         },
-        "listened": "48329"
+        "listened": "59094"
     },
     "157": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "157",
         "name": "Rock r\u00e1dio \u2013 CZ Rock",
         "logoSvg": "https://radia.cz/media/images/0001/01/f1a30ba0ae3a38a7b2ceef8a16375700196275f2.svg",
@@ -1033,82 +1045,14 @@
                 }
             ]
         },
-        "listened": "46717"
-    },
-    "350": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "350",
-        "name": "BLAN\u00cdK Oldies",
-        "logoSvg": "https://radia.cz/media/images/0001/01/e592367a887fb3c08f75703534cf1632b2524632.svg",
-        "logo": "https://radia.cz/media/images/0001/01/6d711f67ac65087bd8e021618b7232e333bb7544.png",
-        "link": "https://radia.cz/radia/blanik-oldies",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/blanik-oldies.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/blanik-oldies.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "408",
-                    "name": "BLAN\u00cdK Oldies aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/oldiesradio64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "407",
-                    "name": "BLAN\u00cdK Oldies mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/oldiesradio128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "409",
-                    "name": "BLAN\u00cdK Oldies aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/oldiesradio128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "407",
-                    "name": "BLAN\u00cdK Oldies mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/oldiesradio128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "42295"
+        "listened": "58683"
     },
     "119": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "119",
         "name": "Hitr\u00e1dio City 93,7 FM",
-        "logoSvg": "https://radia.cz/media/images/0001/01/c757c80eddc19f675127d7a98ae32ff5cb30aeac.svg",
-        "logo": "https://radia.cz/media/images/0001/01/eb36981ffe46b4e0f496685305cb7aa277147c75.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/fff1973738a03866aa56852b18a8ec2f2f3662b2.svg",
+        "logo": "https://radia.cz/media/images/0001/01/bce75d7b9346dd47e05cb2eae7cc6d1c9c38643f.png",
         "link": "https://radia.cz/radia/hitradio-city-praha",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-city-praha.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-city-praha.xml",
@@ -1193,14 +1137,82 @@
                 }
             ]
         },
-        "listened": "41002"
+        "listened": "47008"
+    },
+    "350": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "350",
+        "name": "BLAN\u00cdK Oldies",
+        "logoSvg": "https://radia.cz/media/images/0001/01/e592367a887fb3c08f75703534cf1632b2524632.svg",
+        "logo": "https://radia.cz/media/images/0001/01/6d711f67ac65087bd8e021618b7232e333bb7544.png",
+        "link": "https://radia.cz/radia/blanik-oldies",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/blanik-oldies.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/blanik-oldies.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "408",
+                    "name": "BLAN\u00cdK Oldies aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/oldiesradio64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "407",
+                    "name": "BLAN\u00cdK Oldies mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/oldiesradio128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "409",
+                    "name": "BLAN\u00cdK Oldies aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/oldiesradio128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "407",
+                    "name": "BLAN\u00cdK Oldies mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/oldiesradio128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "44202"
     },
     "124": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "124",
         "name": "Hitr\u00e1dio Osmdes\u00e1tka",
-        "logoSvg": "https://radia.cz/media/images/0001/01/ff9752ec722b3856a387171de68b97ea38da0cb2.svg",
-        "logo": "https://radia.cz/media/images/0001/01/d94fa270e689bc91d22e439e6b1c899e4778b962.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/9d6a0554f2f3fb7891748805e83c6030f5177074.svg",
+        "logo": "https://radia.cz/media/images/0001/01/7628095eafe076f65dc5faecc9341570f2af1514.png",
         "link": "https://radia.cz/radia/hitradio-80tka",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-80.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-80.xml",
@@ -1285,10 +1297,78 @@
                 }
             ]
         },
-        "listened": "38295"
+        "listened": "42088"
+    },
+    "125": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "125",
+        "name": "Hitr\u00e1dio Devades\u00e1tka",
+        "logoSvg": "https://radia.cz/media/images/0001/01/1eec5dac28c0282256fb18500f58a51d468f5ec9.svg",
+        "logo": "https://radia.cz/media/images/0001/01/10a512f04c14dfec0c17b04417ba7e8cf7667faa.png",
+        "link": "https://radia.cz/radia/hitradio-90tka",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-90.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-90.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "125",
+                    "name": "Hitr\u00e1dio Devades\u00e1tka aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/hit9064.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "123",
+                    "name": "Hitr\u00e1dio Devades\u00e1tka mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/hit90128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "127",
+                    "name": "Hitr\u00e1dio Devades\u00e1tka aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/hit90128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "123",
+                    "name": "Hitr\u00e1dio Devades\u00e1tka mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/hit90128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "39130"
     },
     "275": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:11",
         "id": "275",
         "name": "\u010cesk\u00fd rozhlas Vltava",
         "logoSvg": "https://radia.cz/media/images/0001/01/8724bf1d1fb16b63ab689b8c9e1da0efd4290f26.svg",
@@ -1353,82 +1433,14 @@
                 }
             ]
         },
-        "listened": "32962"
-    },
-    "125": {
-        "@u": "2024-11-09 01:22:03",
-        "id": "125",
-        "name": "Hitr\u00e1dio Devades\u00e1tka",
-        "logoSvg": "https://radia.cz/media/images/0001/01/2787d7b4fa72f0f14aaf8ee25a4a4e26dcc9c748.svg",
-        "logo": "https://radia.cz/media/images/0001/01/74fa6b039e383842adc1c6fb1c143168a611daf7.png",
-        "link": "https://radia.cz/radia/hitradio-90tka",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-90.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-90.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "125",
-                    "name": "Hitr\u00e1dio Devades\u00e1tka aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/hit9064.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "123",
-                    "name": "Hitr\u00e1dio Devades\u00e1tka mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/hit90128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "127",
-                    "name": "Hitr\u00e1dio Devades\u00e1tka aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/hit90128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "123",
-                    "name": "Hitr\u00e1dio Devades\u00e1tka mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/hit90128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "30992"
+        "listened": "36165"
     },
     "28": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "28",
         "name": "Hitr\u00e1dio FM Plus",
-        "logoSvg": "https://radia.cz/media/images/0001/01/204ca8325f757891088aa2f67c32228ecd5ecaec.svg",
-        "logo": "https://radia.cz/media/images/0001/01/1a17400641b774ffe2e64a8c622a503b916df12b.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/f84be2b2a65845bce2aabe3fcf1a4ea8bfd763e7.svg",
+        "logo": "https://radia.cz/media/images/0001/01/a137135dff83f3eda0df3fdc3a417d658d9dfc96.png",
         "link": "https://radia.cz/radia/hitradio-fm-plus",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-fm-plus.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-fm-plus.xml",
@@ -1513,10 +1525,10 @@
                 }
             ]
         },
-        "listened": "30056"
+        "listened": "35203"
     },
     "46": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "46",
         "name": "R\u00e1dio Poh\u00e1dka",
         "logoSvg": "https://radia.cz/media/images/0001/01/53f4de16a34a7a39376560876ebfb0fc7cf7edd4.svg",
@@ -1581,10 +1593,214 @@
                 }
             ]
         },
-        "listened": "28646"
+        "listened": "32439"
+    },
+    "331": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "331",
+        "name": "Rock Radio Morava",
+        "logoSvg": "https://radia.cz/media/images/0001/01/a84230fc3193e626591f34b3e7085cdec91fad35.svg",
+        "logo": "https://radia.cz/media/images/0001/01/f692ba0116c6f6d05caa5865e1dbd4b0c2e740b8.png",
+        "link": "https://radia.cz/radia/rock-radio-morava",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/rock-radio.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/rock-radio.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "360",
+                    "name": "Rock Radio Morava aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/rockradiomorava64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "359",
+                    "name": "Rock Radio Morava mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/rockradiomorava128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "359",
+                    "name": "Rock Radio Morava mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/rockradiomorava128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "361",
+                    "name": "Rock Radio Morava aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/rockradiomorava128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "29229"
+    },
+    "151": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "151",
+        "name": "Rock r\u00e1dio \u2013 Hard and Heavy",
+        "logoSvg": "https://radia.cz/media/images/0001/01/ca01899601663f6549d6246bae2c9f01738a0cbf.svg",
+        "logo": "https://radia.cz/media/images/0001/01/616ca3daf6896e3c1051d78a6a098f23f8920ad5.png",
+        "link": "https://radia.cz/radia/rock-radio-hard-and-heavy",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/metal.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/metal.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "150",
+                    "name": "Rock r\u00e1dio \u2013 Hard and Heavy aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/metalomanie64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "148",
+                    "name": "Rock r\u00e1dio \u2013 Hard and Heavy mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/metalomanie128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "151",
+                    "name": "Rock r\u00e1dio \u2013 Hard and Heavy aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/metalomanie128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "148",
+                    "name": "Rock r\u00e1dio \u2013 Hard and Heavy mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/metalomanie128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "28584"
+    },
+    "311": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "311",
+        "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko",
+        "logoSvg": "https://radia.cz/media/images/0001/01/504fa59ec3da6f3d3a569ef9a10a75a52dfdb348.svg",
+        "logo": "https://radia.cz/media/images/0001/01/3336ea3c65368eab1399c799c7e1379ca0948861.png",
+        "link": "https://radia.cz/radia/blanik-morava",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-blanik-morava.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-blanik-morava.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "307",
+                    "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/blanikmorava64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "308",
+                    "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/blanikmorava128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "308",
+                    "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/blanikmorava128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "305",
+                    "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/blanikmorava128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "28571"
     },
     "296": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "296",
         "name": "\u010cesk\u00fd rozhlas Pohoda",
         "logoSvg": "https://radia.cz/media/images/0001/01/e62a4f7d3529243e18e231208a2d0d64b22337d5.svg",
@@ -1649,14 +1865,14 @@
                 }
             ]
         },
-        "listened": "23810"
+        "listened": "26650"
     },
     "345": {
-        "@u": "2024-11-09 01:01:21",
+        "@u": "2025-03-31 23:00:12",
         "id": "345",
         "name": "Fajn Helax",
-        "logoSvg": "https://radia.cz/media/images/0001/01/e6882a5bbc4750bbb99a98bd51d9bc901f002b32.svg",
-        "logo": "https://radia.cz/media/images/0001/01/0c1597e037ebd4367b0103eae2c3a8fb2f8c82d6.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/2dedead7b2307c8f1c7ce74631ce55400c440082.svg",
+        "logo": "https://radia.cz/media/images/0001/01/8e4cb8d4b8575020fe3f69f18c37031e75c72ca1.png",
         "link": "https://radia.cz/radia/fajn-helax",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-helax.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-helax.xml",
@@ -1741,14 +1957,14 @@
                 }
             ]
         },
-        "listened": "23126"
+        "listened": "24788"
     },
     "94": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "94",
         "name": "Hitr\u00e1dio Faktor",
-        "logoSvg": "https://radia.cz/media/images/0001/01/e288c1f1751659bab9b366c7008aa95da91ef9eb.svg",
-        "logo": "https://radia.cz/media/images/0001/01/4e531ea23949d263eddbd1478b159dc614842c49.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/751ad6fcc36f12519c2f28e6c60d93c2e0f73583.svg",
+        "logo": "https://radia.cz/media/images/0001/01/79dd84be9fc6cb052696526707c528ae7d619456.png",
         "link": "https://radia.cz/radia/hitradio-faktor",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-faktor.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-faktor.xml",
@@ -1833,218 +2049,14 @@
                 }
             ]
         },
-        "listened": "22886"
-    },
-    "311": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "311",
-        "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko",
-        "logoSvg": "https://radia.cz/media/images/0001/01/504fa59ec3da6f3d3a569ef9a10a75a52dfdb348.svg",
-        "logo": "https://radia.cz/media/images/0001/01/3336ea3c65368eab1399c799c7e1379ca0948861.png",
-        "link": "https://radia.cz/radia/blanik-morava",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-blanik-morava.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-blanik-morava.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "307",
-                    "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/blanikmorava64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "308",
-                    "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/blanikmorava128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "308",
-                    "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/blanikmorava128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "305",
-                    "name": "R\u00e1dio BLAN\u00cdK - Morava a Slezsko mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/blanikmorava128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "22457"
-    },
-    "331": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "331",
-        "name": "Rock Radio Morava",
-        "logoSvg": "https://radia.cz/media/images/0001/01/a84230fc3193e626591f34b3e7085cdec91fad35.svg",
-        "logo": "https://radia.cz/media/images/0001/01/f692ba0116c6f6d05caa5865e1dbd4b0c2e740b8.png",
-        "link": "https://radia.cz/radia/rock-radio-morava",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/rock-radio.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/rock-radio.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "360",
-                    "name": "Rock Radio Morava aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/rockradiomorava64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "359",
-                    "name": "Rock Radio Morava mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/rockradiomorava128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "361",
-                    "name": "Rock Radio Morava aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/rockradiomorava128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "359",
-                    "name": "Rock Radio Morava mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/rockradiomorava128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "21162"
-    },
-    "151": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "151",
-        "name": "Rock r\u00e1dio \u2013 Hard and Heavy",
-        "logoSvg": "https://radia.cz/media/images/0001/01/ca01899601663f6549d6246bae2c9f01738a0cbf.svg",
-        "logo": "https://radia.cz/media/images/0001/01/616ca3daf6896e3c1051d78a6a098f23f8920ad5.png",
-        "link": "https://radia.cz/radia/rock-radio-hard-and-heavy",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/metal.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/metal.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "150",
-                    "name": "Rock r\u00e1dio \u2013 Hard and Heavy aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/metalomanie64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "148",
-                    "name": "Rock r\u00e1dio \u2013 Hard and Heavy mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/metalomanie128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "151",
-                    "name": "Rock r\u00e1dio \u2013 Hard and Heavy aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/metalomanie128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "148",
-                    "name": "Rock r\u00e1dio \u2013 Hard and Heavy mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/metalomanie128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "20404"
+        "listened": "24066"
     },
     "189": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "189",
         "name": "Hitr\u00e1dio Vyso\u010dina",
-        "logoSvg": "https://radia.cz/media/images/0001/01/ddc79ed2fd3785924e9393f4325ca8962217e8c7.svg",
-        "logo": "https://radia.cz/media/images/0001/01/9e47edca5cb006cb41998befd871f3a6925ff955.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/579fda097ca4d70765efbf3531ea338857939df7.svg",
+        "logo": "https://radia.cz/media/images/0001/01/9d8cc1973fd22941d72ce2449721806cf6a0083d.png",
         "link": "https://radia.cz/radia/hitradio-vysocina",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-vysocina.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-vysocina.xml",
@@ -2129,10 +2141,10 @@
                 }
             ]
         },
-        "listened": "19609"
+        "listened": "23513"
     },
     "282": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:11",
         "id": "282",
         "name": "\u010cesk\u00fd rozhlas \u010cesk\u00e9 Bud\u011bjovice",
         "logoSvg": "https://radia.cz/media/images/0001/01/d641e869e8a4b2ff1e11aaa003c1ca7a3910f1e0.svg",
@@ -2169,10 +2181,102 @@
                 }
             ]
         },
-        "listened": "17097"
+        "listened": "21588"
+    },
+    "322": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "322",
+        "name": "Hitr\u00e1dio Zl\u00edn",
+        "logoSvg": "https://radia.cz/media/images/0001/01/ae99fc8e471d5043bcbb3b088aa84d8f417f7b69.svg",
+        "logo": "https://radia.cz/media/images/0001/01/67c4ac4ea5905e2ccf6a95d6c5c9b0354c3a7b1b.png",
+        "link": "https://radia.cz/radia/hitradio-zlin",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-zlin.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-zlin.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "527",
+                    "name": "Hitr\u00e1dio Zl\u00edn aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_ZLINAAC.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "331",
+                    "name": "Hitr\u00e1dio Zl\u00edn aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/radiozlin64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "332",
+                    "name": "Hitr\u00e1dio Zl\u00edn aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/radiozlin128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "526",
+                    "name": "Hitr\u00e1dio Zl\u00edn aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_ZLINAAC128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "332",
+                    "name": "Hitr\u00e1dio Zl\u00edn aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/radiozlin128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "330",
+                    "name": "Hitr\u00e1dio Zl\u00edn mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/radiozlin128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "18940"
     },
     "276": {
-        "@u": "2024-11-09 01:23:17",
+        "@u": "2025-03-31 23:00:12",
         "id": "276",
         "name": "\u010cesk\u00fd rozhlas Jazz",
         "logoSvg": "https://radia.cz/media/images/0001/01/5e834c4fe8bbf14e0dc5ef5945255a7ce5352a00.svg",
@@ -2237,10 +2341,10 @@
                 }
             ]
         },
-        "listened": "15997"
+        "listened": "18187"
     },
     "274": {
-        "@u": "2024-11-09 01:23:17",
+        "@u": "2025-03-31 23:00:12",
         "id": "274",
         "name": "\u010cesk\u00fd rozhlas Radio Wave",
         "logoSvg": "https://radia.cz/media/images/0001/01/6ee435f0739f007bbb2c10327683e238cd295111.svg",
@@ -2305,50 +2409,50 @@
                 }
             ]
         },
-        "listened": "15385"
+        "listened": "17911"
     },
-    "283": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "283",
-        "name": "\u010cesk\u00fd rozhlas Hradec Kr\u00e1lov\u00e9",
-        "logoSvg": "https://radia.cz/media/images/0001/01/4453216e53f722308ce56cc87aaf675aacbaa260.svg",
-        "logo": "https://radia.cz/media/images/0001/01/188345365e59a4197eeda23ad299be402156662f.png",
-        "link": "https://radia.cz/radia/cesky-rozhlas-hradec-kralove",
-        "nowplay": "https://radia.cz/xmlapp2/nowplay-283.xml",
-        "playlist": "https://radia.cz/xmlapp2/playlist-283.xml",
-        "program": "https://radia.cz/data/program/283.xml",
+    "292": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "292",
+        "name": "\u010cesk\u00fd rozhlas Sever",
+        "logoSvg": "https://radia.cz/media/images/0001/01/982df3229eba7d26df67d6a67116f3916097686b.svg",
+        "logo": "https://radia.cz/media/images/0001/01/7a53ba3b08f01c131edda94815c3a7d4d8ea76b8.png",
+        "link": "https://radia.cz/radia/cesky-rozhlas-sever",
+        "nowplay": "https://radia.cz/xmlapp2/nowplay-292.xml",
+        "playlist": "https://radia.cz/xmlapp2/playlist-292.xml",
+        "program": "https://radia.cz/data/program/292.xml",
         "streams": {
             "stream": [
                 {
-                    "id": "252",
-                    "name": "\u010cesk\u00fd rozhlas Hradec Kr\u00e1lov\u00e9 aac 64kb",
+                    "id": "273",
+                    "name": "\u010cesk\u00fd rozhlas Sever aac 64kb",
                     "type": "aac",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://rozhlas.stream/hradec_kralove_low.aac",
+                    "url": "https://rozhlas.stream/sever_low.aac",
                     "defWifi": "0",
                     "def3g": "1"
                 },
                 {
-                    "id": "253",
-                    "name": "\u010cesk\u00fd rozhlas Hradec Kr\u00e1lov\u00e9 mp3 128kb",
+                    "id": "274",
+                    "name": "\u010cesk\u00fd rozhlas Sever mp3 128kb",
                     "type": "mp3",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://rozhlas.stream/hradec_kralove.mp3",
+                    "url": "https://rozhlas.stream/sever.mp3",
                     "defWifi": "1",
                     "def3g": "0"
                 }
             ]
         },
-        "listened": "14572"
+        "listened": "17473"
     },
     "289": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "289",
         "name": "\u010cesk\u00fd rozhlas Plze\u0148",
         "logoSvg": "https://radia.cz/media/images/0001/01/d60284b81eb20ce8d12e3b7d16492f92fb66f4d5.svg",
@@ -2385,118 +2489,50 @@
                 }
             ]
         },
-        "listened": "14477"
+        "listened": "16799"
     },
-    "280": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "280",
-        "name": "\u010cesk\u00fd rozhlas D-dur",
-        "logoSvg": "https://radia.cz/media/images/0001/01/34b80fda36b86b32c886449bba265cd4cb52d585.svg",
-        "logo": "https://radia.cz/media/images/0001/01/95f2814d60983f11bb92382b8180b6cedb1b21a2.png",
-        "link": "https://radia.cz/radia/cesky-rozhlas-d-dur",
-        "nowplay": "https://radia.cz/xmlapp2/nowplay-280.xml",
-        "playlist": "https://radia.cz/xmlapp2/playlist-280.xml",
-        "program": "https://radia.cz/data/program/280.xml",
-        "streams": {
-            "stream": {
-                "id": "243",
-                "name": "\u010cesk\u00fd rozhlas D-dur aac 64kb",
-                "type": "aac",
-                "bitrate": "64",
-                "forAndroid": "1",
-                "forApple": "1",
-                "forBrowser": "1",
-                "url": "https://rozhlas.stream/ddur_low.aac",
-                "defWifi": "0",
-                "def3g": "1"
-            }
-        },
-        "streamsHQ": {
-            "stream": {
-                "id": "242",
-                "name": "\u010cesk\u00fd rozhlas D-dur aac 160kb",
-                "type": "aac",
-                "bitrate": "160",
-                "forAndroid": "1",
-                "forApple": "1",
-                "forBrowser": "1",
-                "url": "https://rozhlas.stream/ddur_high.aac",
-                "defWifi": "1",
-                "def3g": "0"
-            }
-        },
-        "listened": "14400"
-    },
-    "322": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "322",
-        "name": "Hitr\u00e1dio Zl\u00edn",
-        "logoSvg": "https://radia.cz/media/images/0001/01/c74730db0152b88c98e2e7d26dae3ab823128cf8.svg",
-        "logo": "https://radia.cz/media/images/0001/01/e5c301ea08940ba52f9f7e002ac7a4d46e76432a.png",
-        "link": "https://radia.cz/radia/hitradio-zlin",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-zlin.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-zlin.xml",
-        "program": null,
+    "283": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "283",
+        "name": "\u010cesk\u00fd rozhlas Hradec Kr\u00e1lov\u00e9",
+        "logoSvg": "https://radia.cz/media/images/0001/01/4453216e53f722308ce56cc87aaf675aacbaa260.svg",
+        "logo": "https://radia.cz/media/images/0001/01/188345365e59a4197eeda23ad299be402156662f.png",
+        "link": "https://radia.cz/radia/cesky-rozhlas-hradec-kralove",
+        "nowplay": "https://radia.cz/xmlapp2/nowplay-283.xml",
+        "playlist": "https://radia.cz/xmlapp2/playlist-283.xml",
+        "program": "https://radia.cz/data/program/283.xml",
         "streams": {
             "stream": [
                 {
-                    "id": "331",
-                    "name": "Hitr\u00e1dio Zl\u00edn aac 64kb",
+                    "id": "252",
+                    "name": "\u010cesk\u00fd rozhlas Hradec Kr\u00e1lov\u00e9 aac 64kb",
                     "type": "aac",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice.radia.cz/radiozlin64.aac",
+                    "url": "https://rozhlas.stream/hradec_kralove_low.aac",
                     "defWifi": "0",
                     "def3g": "1"
                 },
                 {
-                    "id": "332",
-                    "name": "Hitr\u00e1dio Zl\u00edn aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/radiozlin128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "332",
-                    "name": "Hitr\u00e1dio Zl\u00edn aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/radiozlin128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "330",
-                    "name": "Hitr\u00e1dio Zl\u00edn mp3 128kb",
+                    "id": "253",
+                    "name": "\u010cesk\u00fd rozhlas Hradec Kr\u00e1lov\u00e9 mp3 128kb",
                     "type": "mp3",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice.radia.cz/radiozlin128.mp3",
+                    "url": "https://rozhlas.stream/hradec_kralove.mp3",
                     "defWifi": "1",
                     "def3g": "0"
                 }
             ]
         },
-        "listened": "13501"
+        "listened": "15750"
     },
     "287": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "287",
         "name": "\u010cesk\u00fd rozhlas Ostrava",
         "logoSvg": "https://radia.cz/media/images/0001/01/575620dc68ed8cf721fee33840560567e282c478.svg",
@@ -2533,14 +2569,14 @@
                 }
             ]
         },
-        "listened": "13227"
+        "listened": "15433"
     },
     "133": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "133",
         "name": "Hitr\u00e1dio Z\u00f3na l\u00e1sky",
-        "logoSvg": "https://radia.cz/media/images/0001/01/d224af4affc29c2d94de198ea114fe6c64082e58.svg",
-        "logo": "https://radia.cz/media/images/0001/01/598407321d4defa13ffa12977b82a8c66b2dd596.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/847655229d8b0140fc879fb3d057c4ab708c3364.svg",
+        "logo": "https://radia.cz/media/images/0001/01/8118b310b138bed31614758dfad2eea23febd5eb.png",
         "link": "https://radia.cz/radia/hitradio-zona-lasky",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-zona-lasky.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-zona-lasky.xml",
@@ -2601,130 +2637,50 @@
                 }
             ]
         },
-        "listened": "13053"
+        "listened": "15282"
     },
-    "292": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "292",
-        "name": "\u010cesk\u00fd rozhlas Sever",
-        "logoSvg": "https://radia.cz/media/images/0001/01/982df3229eba7d26df67d6a67116f3916097686b.svg",
-        "logo": "https://radia.cz/media/images/0001/01/7a53ba3b08f01c131edda94815c3a7d4d8ea76b8.png",
-        "link": "https://radia.cz/radia/cesky-rozhlas-sever",
-        "nowplay": "https://radia.cz/xmlapp2/nowplay-292.xml",
-        "playlist": "https://radia.cz/xmlapp2/playlist-292.xml",
-        "program": "https://radia.cz/data/program/292.xml",
+    "280": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "280",
+        "name": "\u010cesk\u00fd rozhlas D-dur",
+        "logoSvg": "https://radia.cz/media/images/0001/01/34b80fda36b86b32c886449bba265cd4cb52d585.svg",
+        "logo": "https://radia.cz/media/images/0001/01/95f2814d60983f11bb92382b8180b6cedb1b21a2.png",
+        "link": "https://radia.cz/radia/cesky-rozhlas-d-dur",
+        "nowplay": "https://radia.cz/xmlapp2/nowplay-280.xml",
+        "playlist": "https://radia.cz/xmlapp2/playlist-280.xml",
+        "program": "https://radia.cz/data/program/280.xml",
         "streams": {
-            "stream": [
-                {
-                    "id": "273",
-                    "name": "\u010cesk\u00fd rozhlas Sever aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/sever_low.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "274",
-                    "name": "\u010cesk\u00fd rozhlas Sever mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/sever.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "12505"
-    },
-    "29": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "29",
-        "name": "Hitr\u00e1dio City Brno",
-        "logoSvg": "https://radia.cz/media/images/0001/01/f908bf4f8977c0b6840214b68480e4b1be7265a6.svg",
-        "logo": "https://radia.cz/media/images/0001/01/133f3f7baaa35ab3a8cbc3711620cf8c56de5a2c.png",
-        "link": "https://radia.cz/radia/hitradio-city-brno",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-city-brno.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-city-brno.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "14",
-                    "name": "Hitr\u00e1dio City Brno aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/citybrno64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "15",
-                    "name": "Hitr\u00e1dio City Brno aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/citybrno64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "12",
-                    "name": "Hitr\u00e1dio City Brno mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/citybrno128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
+            "stream": {
+                "id": "243",
+                "name": "\u010cesk\u00fd rozhlas D-dur aac 64kb",
+                "type": "aac",
+                "bitrate": "64",
+                "forAndroid": "1",
+                "forApple": "1",
+                "forBrowser": "1",
+                "url": "https://rozhlas.stream/ddur_low.aac",
+                "defWifi": "0",
+                "def3g": "1"
+            }
         },
         "streamsHQ": {
-            "stream": [
-                {
-                    "id": "16",
-                    "name": "Hitr\u00e1dio City Brno aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/citybrno128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "12",
-                    "name": "Hitr\u00e1dio City Brno mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/citybrno128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
+            "stream": {
+                "id": "242",
+                "name": "\u010cesk\u00fd rozhlas D-dur aac 160kb",
+                "type": "aac",
+                "bitrate": "160",
+                "forAndroid": "1",
+                "forApple": "1",
+                "forBrowser": "1",
+                "url": "https://rozhlas.stream/ddur_high.aac",
+                "defWifi": "1",
+                "def3g": "0"
+            }
         },
-        "listened": "11442"
+        "listened": "15099"
     },
     "286": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "286",
         "name": "\u010cesk\u00fd rozhlas Olomouc",
         "logoSvg": "https://radia.cz/media/images/0001/01/7d2a6486d8f7d4068e90cb2265a6d4dae39f2f08.svg",
@@ -2761,10 +2717,36 @@
                 }
             ]
         },
-        "listened": "11103"
+        "listened": "14023"
+    },
+    "291": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "291",
+        "name": "\u010cesk\u00fd rozhlas St\u0159edn\u00ed \u010cechy",
+        "logoSvg": "https://radia.cz/media/default/0001/01/52d2c5d8ad5b042c180f6862c8a0018b54c03ab0.svg",
+        "logo": "https://radia.cz/media/images/0001/01/73bbe8eeccaad98daff98b7449ae3439f7d16435.png",
+        "link": "https://radia.cz/radia/cesky-rozhlas-region",
+        "nowplay": "https://radia.cz/xmlapp2/nowplay-291.xml",
+        "playlist": "https://radia.cz/xmlapp2/playlist-291.xml",
+        "program": "https://radia.cz/data/program/291.xml",
+        "streams": {
+            "stream": {
+                "id": "270",
+                "name": "\u010cesk\u00fd rozhlas St\u0159edn\u00ed \u010cechy aac 64kb",
+                "type": "aac",
+                "bitrate": "64",
+                "forAndroid": "1",
+                "forApple": "1",
+                "forBrowser": "1",
+                "url": "https://rozhlas.stream/region_low.aac",
+                "defWifi": "0",
+                "def3g": "1"
+            }
+        },
+        "listened": "12969"
     },
     "288": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "288",
         "name": "\u010cesk\u00fd rozhlas Pardubice",
         "logoSvg": "https://radia.cz/media/images/0001/01/8cf872d6bd6224f8f9c58f42ae371d3b099a5344.svg",
@@ -2801,10 +2783,102 @@
                 }
             ]
         },
-        "listened": "10002"
+        "listened": "12868"
+    },
+    "326": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "326",
+        "name": "Radio Kiss",
+        "logoSvg": "https://radia.cz/media/images/0001/01/026857c07500bd293cb78434dc7e42bb5cba5afa.svg",
+        "logo": "https://radia.cz/media/images/0001/01/e156cd8c7f65316a8b1b0d65ab48b771953c925d.png",
+        "link": "https://radia.cz/radia/radio-kiss",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-kiss.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-kiss.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "338",
+                    "name": "Radio Kiss mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice5.abradio.cz/kiss128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "342",
+                    "name": "Radio Kiss aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://stream.rcs.revma.com/asn0cmvb938uv",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "339",
+                    "name": "Radio Kiss aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice6.abradio.cz/kiss64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "338",
+                    "name": "Radio Kiss mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice5.abradio.cz/kiss128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "342",
+                    "name": "Radio Kiss aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://stream.rcs.revma.com/asn0cmvb938uv",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "340",
+                    "name": "Radio Kiss aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice6.abradio.cz/kiss128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "12353"
     },
     "294": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "294",
         "name": "\u010cesk\u00fd rozhlas Zl\u00edn",
         "logoSvg": "https://radia.cz/media/images/0001/01/cca76a9e83cf796598536f62dde20efbf9ce6177.svg",
@@ -2841,40 +2915,146 @@
                 }
             ]
         },
-        "listened": "9881"
+        "listened": "12204"
     },
-    "291": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "291",
-        "name": "\u010cesk\u00fd rozhlas St\u0159edn\u00ed \u010cechy",
-        "logoSvg": "https://radia.cz/media/default/0001/01/52d2c5d8ad5b042c180f6862c8a0018b54c03ab0.svg",
-        "logo": "https://radia.cz/media/images/0001/01/73bbe8eeccaad98daff98b7449ae3439f7d16435.png",
-        "link": "https://radia.cz/radia/cesky-rozhlas-region",
-        "nowplay": "https://radia.cz/xmlapp2/nowplay-291.xml",
-        "playlist": "https://radia.cz/xmlapp2/playlist-291.xml",
-        "program": "https://radia.cz/data/program/291.xml",
+    "293": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "293",
+        "name": "\u010cesk\u00fd rozhlas Vyso\u010dina",
+        "logoSvg": "https://radia.cz/media/images/0001/01/f08021fb0259f595085a62b0dce947cbf4a511ca.svg",
+        "logo": "https://radia.cz/media/images/0001/01/16a89161f0c91a6ba817b411524b4b5578efd8a0.png",
+        "link": "https://radia.cz/radia/cesky-rozhlas-vysocina",
+        "nowplay": "https://radia.cz/xmlapp2/nowplay-293.xml",
+        "playlist": "https://radia.cz/xmlapp2/playlist-293.xml",
+        "program": "https://radia.cz/data/program/293.xml",
         "streams": {
-            "stream": {
-                "id": "270",
-                "name": "\u010cesk\u00fd rozhlas St\u0159edn\u00ed \u010cechy aac 64kb",
-                "type": "aac",
-                "bitrate": "64",
-                "forAndroid": "1",
-                "forApple": "1",
-                "forBrowser": "1",
-                "url": "https://rozhlas.stream/region_low.aac",
-                "defWifi": "0",
-                "def3g": "1"
-            }
+            "stream": [
+                {
+                    "id": "276",
+                    "name": "\u010cesk\u00fd rozhlas Vyso\u010dina aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://rozhlas.stream/vysocina_low.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "277",
+                    "name": "\u010cesk\u00fd rozhlas Vyso\u010dina mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://rozhlas.stream/vysocina.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
         },
-        "listened": "9878"
+        "listened": "11981"
+    },
+    "333": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "333",
+        "name": "Hitr\u00e1dio North Music",
+        "logoSvg": "https://radia.cz/media/images/0001/01/e2c409c4c047fa956fad4afd3c073809c74f94c2.svg",
+        "logo": "https://radia.cz/media/images/0001/01/f70acf548fe07d3402d418151fe9ec1107e87d4c.png",
+        "link": "https://radia.cz/radia/hitradio-north-music",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-fm.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-fm.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "368",
+                    "name": "Hitr\u00e1dio North Music aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_NORTH_MUSICAAC.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "371",
+                    "name": "Hitr\u00e1dio North Music aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/hitradionorthmusic64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "372",
+                    "name": "Hitr\u00e1dio North Music mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/hitradionorthmusic128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "375",
+                    "name": "Hitr\u00e1dio North Music aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_NORTH_MUSIC.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "370",
+                    "name": "Hitr\u00e1dio North Music mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/hitradiofm128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "371",
+                    "name": "Hitr\u00e1dio North Music aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/hitradionorthmusic64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                }
+            ]
+        },
+        "listened": "11709"
     },
     "126": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "126",
         "name": "Hitr\u00e1dio PopRock",
-        "logoSvg": "https://radia.cz/media/images/0001/01/be1f2131acfeaf368ab41c54b3f9d53887653a64.svg",
-        "logo": "https://radia.cz/media/images/0001/01/c9810a128846559155953da401fe2083df03f7a8.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/7b2a92d6fe0e9e2e4b9994f56683835d18ca9c99.svg",
+        "logo": "https://radia.cz/media/images/0001/01/56400b7be8fd66c402c856252145ed1402c9a5d6.png",
         "link": "https://radia.cz/radia/hitradio-poprock",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-pop-rock.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-pop-rock.xml",
@@ -2935,93 +3115,53 @@
                 }
             ]
         },
-        "listened": "9819"
+        "listened": "11372"
     },
-    "293": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "293",
-        "name": "\u010cesk\u00fd rozhlas Vyso\u010dina",
-        "logoSvg": "https://radia.cz/media/images/0001/01/f08021fb0259f595085a62b0dce947cbf4a511ca.svg",
-        "logo": "https://radia.cz/media/images/0001/01/16a89161f0c91a6ba817b411524b4b5578efd8a0.png",
-        "link": "https://radia.cz/radia/cesky-rozhlas-vysocina",
-        "nowplay": "https://radia.cz/xmlapp2/nowplay-293.xml",
-        "playlist": "https://radia.cz/xmlapp2/playlist-293.xml",
-        "program": "https://radia.cz/data/program/293.xml",
-        "streams": {
-            "stream": [
-                {
-                    "id": "276",
-                    "name": "\u010cesk\u00fd rozhlas Vyso\u010dina aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/vysocina_low.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "277",
-                    "name": "\u010cesk\u00fd rozhlas Vyso\u010dina mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/vysocina.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "9720"
-    },
-    "333": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "333",
-        "name": "Hitr\u00e1dio North Music",
-        "logoSvg": "https://radia.cz/media/images/0001/01/81715557ca0c543a89fcd9388ceb5fdf50bf8eaa.svg",
-        "logo": "https://radia.cz/media/images/0001/01/42c630825d85c1072f6f1460e6a4b6069f9f187c.png",
-        "link": "https://radia.cz/radia/hitradio-north-music",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-fm.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-fm.xml",
+    "33": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "33",
+        "name": "Radio Beat",
+        "logoSvg": "https://radia.cz/media/images/0001/01/5408018b32989b3b609dbb2ec55745e18df23ab1.svg",
+        "logo": "https://radia.cz/media/images/0001/01/b8d748833ea1260f5c2b901b71bc95617399ec24.png",
+        "link": "https://radia.cz/radia/radio-beat",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-beat.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-beat.xml",
         "program": null,
         "streams": {
             "stream": [
                 {
-                    "id": "368",
-                    "name": "Hitr\u00e1dio North Music aac 64kb",
+                    "id": "26",
+                    "name": "Radio Beat aac 64kb",
                     "type": "aac",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_FMAAC.aac",
+                    "url": "https://ice6.radia.cz/beat64.aac",
                     "defWifi": "0",
                     "def3g": "1"
                 },
                 {
-                    "id": "371",
-                    "name": "Hitr\u00e1dio North Music aac 64kb",
-                    "type": "aac",
+                    "id": "28",
+                    "name": "Radio Beat mp3 64kb",
+                    "type": "mp3",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice.radia.cz/hitradionorthmusic64.aac",
+                    "url": "https://ice6.radia.cz/beat64.mp3",
                     "defWifi": "0",
                     "def3g": "1"
                 },
                 {
-                    "id": "372",
-                    "name": "Hitr\u00e1dio North Music mp3 128kb",
+                    "id": "24",
+                    "name": "Radio Beat mp3 128kb",
                     "type": "mp3",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice.radia.cz/hitradionorthmusic128.mp3",
+                    "url": "https://ice5.radia.cz/beat128.mp3",
                     "defWifi": "1",
                     "def3g": "0"
                 }
@@ -3030,47 +3170,219 @@
         "streamsHQ": {
             "stream": [
                 {
-                    "id": "375",
-                    "name": "Hitr\u00e1dio North Music aac 128kb",
+                    "id": "27",
+                    "name": "Radio Beat aac 128kb",
                     "type": "aac",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_FM.aac",
+                    "url": "https://ice6.radia.cz/beat128.aac",
                     "defWifi": "1",
                     "def3g": "0"
                 },
                 {
-                    "id": "370",
-                    "name": "Hitr\u00e1dio North Music mp3 128kb",
+                    "id": "29",
+                    "name": "Radio Beat mp3 128kb",
                     "type": "mp3",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice.radia.cz/hitradiofm128.mp3",
+                    "url": "https://ice6.radia.cz/beat128.mp3",
                     "defWifi": "1",
                     "def3g": "0"
                 },
                 {
-                    "id": "371",
-                    "name": "Hitr\u00e1dio North Music aac 64kb",
+                    "id": "30",
+                    "name": "Radio Beat aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://stream.rcs.revma.com/3d47nqvb938uv",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "11312"
+    },
+    "358": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "358",
+        "name": "Rock r\u00e1dio - Legends of Rock",
+        "logoSvg": "https://radia.cz/media/images/0001/01/9630c2ec2aa1fbd1c71e8f0149d88970e20ca382.svg",
+        "logo": "https://radia.cz/media/images/0001/01/83506de267a5675103e2621c4b5e181b57a86f61.png",
+        "link": "https://radia.cz/radia/rock-radio-legends-of-rock",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/legends.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/legends.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "491",
+                    "name": "Rock r\u00e1dio - Legends of Rock aac 64kb",
                     "type": "aac",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice.radia.cz/hitradionorthmusic64.aac",
+                    "url": "https://ice2.radia.cz/legends_of_rock_64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "493",
+                    "name": "Rock r\u00e1dio - Legends of Rock mp3 64kb",
+                    "type": "mp3",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice4.radia.cz/legends_of_rock_64.mp3",
                     "defWifi": "0",
                     "def3g": "1"
                 }
             ]
         },
-        "listened": "9421"
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "490",
+                    "name": "Rock r\u00e1dio - Legends of Rock aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/legends_of_rock_128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "492",
+                    "name": "Rock r\u00e1dio - Legends of Rock mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice4.radia.cz/legends_of_rock_128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "10643"
+    },
+    "29": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "29",
+        "name": "Hitr\u00e1dio City Brno",
+        "logoSvg": "https://radia.cz/media/images/0001/01/6bce9e8b60da51d2c6b80685d5c27a5e34e8a8b1.svg",
+        "logo": "https://radia.cz/media/images/0001/01/4a3ae85d571a93240c02354a9b57f6dfbc51e245.png",
+        "link": "https://radia.cz/radia/hitradio-city-brno",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-city-brno.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-city-brno.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "524",
+                    "name": "Hitr\u00e1dio City Brno aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_CITY_BRNOAAC.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "14",
+                    "name": "Hitr\u00e1dio City Brno aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/citybrno64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "15",
+                    "name": "Hitr\u00e1dio City Brno aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/citybrno64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "12",
+                    "name": "Hitr\u00e1dio City Brno mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/citybrno128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "523",
+                    "name": "Hitr\u00e1dio City Brno aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_CITY_BRNOAAC128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "16",
+                    "name": "Hitr\u00e1dio City Brno aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/citybrno128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "12",
+                    "name": "Hitr\u00e1dio City Brno mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/citybrno128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "10156"
     },
     "4": {
-        "@u": "2024-11-09 01:03:26",
+        "@u": "2025-03-31 23:00:12",
         "id": "4",
         "name": "Country Radio",
         "logoSvg": "https://radia.cz/media/images/0001/01/c4eb96ee38c19559e47d4b1114366b40e48f5b52.svg",
@@ -3171,262 +3483,10 @@
                 }
             ]
         },
-        "listened": "8242"
-    },
-    "33": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "33",
-        "name": "Radio Beat",
-        "logoSvg": "https://radia.cz/media/images/0001/01/5408018b32989b3b609dbb2ec55745e18df23ab1.svg",
-        "logo": "https://radia.cz/media/images/0001/01/b8d748833ea1260f5c2b901b71bc95617399ec24.png",
-        "link": "https://radia.cz/radia/radio-beat",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-beat.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-beat.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "26",
-                    "name": "Radio Beat aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.radia.cz/beat64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "28",
-                    "name": "Radio Beat mp3 64kb",
-                    "type": "mp3",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.radia.cz/beat64.mp3",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "24",
-                    "name": "Radio Beat mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice5.radia.cz/beat128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "27",
-                    "name": "Radio Beat aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.radia.cz/beat128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "29",
-                    "name": "Radio Beat mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.radia.cz/beat128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "30",
-                    "name": "Radio Beat aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://stream.rcs.revma.com/3d47nqvb938uv",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "7469"
-    },
-    "326": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "326",
-        "name": "Radio Kiss",
-        "logoSvg": "https://radia.cz/media/images/0001/01/026857c07500bd293cb78434dc7e42bb5cba5afa.svg",
-        "logo": "https://radia.cz/media/images/0001/01/e156cd8c7f65316a8b1b0d65ab48b771953c925d.png",
-        "link": "https://radia.cz/radia/radio-kiss",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-kiss.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-kiss.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "338",
-                    "name": "Radio Kiss mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice5.abradio.cz/kiss128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "342",
-                    "name": "Radio Kiss aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://stream.rcs.revma.com/asn0cmvb938uv",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "339",
-                    "name": "Radio Kiss aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.abradio.cz/kiss64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "338",
-                    "name": "Radio Kiss mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice5.abradio.cz/kiss128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "342",
-                    "name": "Radio Kiss aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://stream.rcs.revma.com/asn0cmvb938uv",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "340",
-                    "name": "Radio Kiss aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.abradio.cz/kiss128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "7388"
-    },
-    "358": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "358",
-        "name": "Rock r\u00e1dio - Legends of Rock",
-        "logoSvg": "https://radia.cz/media/images/0001/01/9630c2ec2aa1fbd1c71e8f0149d88970e20ca382.svg",
-        "logo": "https://radia.cz/media/images/0001/01/83506de267a5675103e2621c4b5e181b57a86f61.png",
-        "link": "https://radia.cz/radia/rock-radio-legends-of-rock",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/legends.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/legends.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "491",
-                    "name": "Rock r\u00e1dio - Legends of Rock aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/legends_of_rock_64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "493",
-                    "name": "Rock r\u00e1dio - Legends of Rock mp3 64kb",
-                    "type": "mp3",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice4.radia.cz/legends_of_rock_64.mp3",
-                    "defWifi": "0",
-                    "def3g": "1"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "490",
-                    "name": "Rock r\u00e1dio - Legends of Rock aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/legends_of_rock_128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "492",
-                    "name": "Rock r\u00e1dio - Legends of Rock mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice4.radia.cz/legends_of_rock_128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "7301"
+        "listened": "9590"
     },
     "277": {
-        "@u": "2024-11-09 01:23:17",
+        "@u": "2025-03-31 23:00:12",
         "id": "277",
         "name": "\u010cesk\u00fd rozhlas R\u00e1dio Junior",
         "logoSvg": "https://radia.cz/media/images/0001/01/6a24b9c49b4cd49050a06eeda7b2b13fad8c7398.svg",
@@ -3489,10 +3549,10 @@
                 }
             ]
         },
-        "listened": "7281"
+        "listened": "8758"
     },
     "284": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "284",
         "name": "\u010cesk\u00fd rozhlas Karlovy Vary",
         "logoSvg": "https://radia.cz/media/images/0001/01/3f5ebc656249892c3aa63999695d552ef76af496.svg",
@@ -3529,78 +3589,10 @@
                 }
             ]
         },
-        "listened": "6446"
-    },
-    "167": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "167",
-        "name": "Hitr\u00e1dio Mil\u00e9nium",
-        "logoSvg": "https://radia.cz/media/images/0001/01/5a4cbbe95aebac52ed7665a37c058c236f67d178.svg",
-        "logo": "https://radia.cz/media/images/0001/01/5bb5fe36eebffd2588dc39074621d4156a2b479f.png",
-        "link": "https://radia.cz/radia/hitradio-milenium",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-milenium.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-milenium.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "167",
-                    "name": "Hitr\u00e1dio Mil\u00e9nium aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/hitmi64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "165",
-                    "name": "Hitr\u00e1dio Mil\u00e9nium mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/hitmi128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "168",
-                    "name": "Hitr\u00e1dio Mil\u00e9nium aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/hitmi128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "165",
-                    "name": "Hitr\u00e1dio Mil\u00e9nium mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.radia.cz/hitmi128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "6191"
+        "listened": "7563"
     },
     "48": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "48",
         "name": "HipHopVibes Radio",
         "logoSvg": "https://radia.cz/media/images/0001/01/02ffb70c4e45a9fc5293b61731e9b48da074cc5a.svg",
@@ -3665,10 +3657,78 @@
                 }
             ]
         },
-        "listened": "6148"
+        "listened": "7552"
+    },
+    "167": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "167",
+        "name": "Hitr\u00e1dio Mil\u00e9nium",
+        "logoSvg": "https://radia.cz/media/images/0001/01/b13e0ca7a4323a68e5d5270a18bd6864cf7def95.svg",
+        "logo": "https://radia.cz/media/images/0001/01/5a9e16840ec85dde742bd95624e90cca77e13aaa.png",
+        "link": "https://radia.cz/radia/hitradio-milenium",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-milenium.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-milenium.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "167",
+                    "name": "Hitr\u00e1dio Mil\u00e9nium aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/hitmi64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "165",
+                    "name": "Hitr\u00e1dio Mil\u00e9nium mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/hitmi128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "168",
+                    "name": "Hitr\u00e1dio Mil\u00e9nium aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/hitmi128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "165",
+                    "name": "Hitr\u00e1dio Mil\u00e9nium mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.radia.cz/hitmi128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "7542"
     },
     "153": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "153",
         "name": "Rock r\u00e1dio \u2013 Alternative Rock",
         "logoSvg": "https://radia.cz/media/images/0001/01/b620db2dbef5c994b95ed25c06c50bc37758e31f.svg",
@@ -3733,76 +3793,10 @@
                 }
             ]
         },
-        "listened": "5393"
-    },
-    "197": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "197",
-        "name": "R\u00e1dio Tloskov",
-        "logoSvg": "https://radia.cz/media/images/0001/01/29c8b61194147731f8551c5385e1392c9e9e0ee9.svg",
-        "logo": "https://radia.cz/media/images/0001/01/3132696747d58d8892a6dc7fc69378d8bff3e4c0.png",
-        "link": "https://radia.cz/radia/radio-tloskov",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/myab-85.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/myab-85.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "185",
-                    "name": "R\u00e1dio Tloskov aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/tloskov64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "184",
-                    "name": "R\u00e1dio Tloskov mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice3.radia.cz/tloskov128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "5272"
-    },
-    "285": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "285",
-        "name": "\u010cesk\u00fd rozhlas Liberec",
-        "logoSvg": "https://radia.cz/media/images/0001/01/33b8acea33d87a859374bb87655a148d229140bc.svg",
-        "logo": "https://radia.cz/media/images/0001/01/51757609e6b7907ab18a9ff3770c5ea2097fa0fa.png",
-        "link": "https://radia.cz/radia/cesky-rozhlas-liberec",
-        "nowplay": "https://radia.cz/xmlapp2/nowplay-285.xml",
-        "playlist": "https://radia.cz/xmlapp2/playlist-285.xml",
-        "program": "https://radia.cz/data/program/285.xml",
-        "streams": {
-            "stream": {
-                "id": "258",
-                "name": "\u010cesk\u00fd rozhlas Liberec aac 64kb",
-                "type": "aac",
-                "bitrate": "64",
-                "forAndroid": "1",
-                "forApple": "1",
-                "forBrowser": "1",
-                "url": "https://rozhlas.stream/liberec_low.aac",
-                "defWifi": "0",
-                "def3g": "1"
-            }
-        },
-        "listened": "5167"
+        "listened": "7236"
     },
     "8": {
-        "@u": "2024-11-09 01:23:17",
+        "@u": "2025-03-31 23:00:12",
         "id": "8",
         "name": "Radio Folk",
         "logoSvg": "https://radia.cz/media/images/0001/01/fa3229d028b6c344ae512ac96bba188da80a9233.svg",
@@ -3867,10 +3861,50 @@
                 }
             ]
         },
-        "listened": "5039"
+        "listened": "6863"
+    },
+    "290": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "290",
+        "name": "\u010cesk\u00fd rozhlas R\u00e1dio Praha",
+        "logoSvg": "https://radia.cz/media/images/0001/01/0d2b86ca844e27410db7602560e4217e174973fd.svg",
+        "logo": "https://radia.cz/media/images/0001/01/c934a3e4c9556e5915fb50caeec93067f8ece60f.png",
+        "link": "https://radia.cz/radia/cesky-rozhlas-radio-praha",
+        "nowplay": null,
+        "playlist": null,
+        "program": "https://radia.cz/data/program/290.xml",
+        "streams": {
+            "stream": [
+                {
+                    "id": "267",
+                    "name": "\u010cesk\u00fd rozhlas R\u00e1dio Praha aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://rozhlas.stream/radio_dab_praha_low.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "268",
+                    "name": "\u010cesk\u00fd rozhlas R\u00e1dio Praha mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://rozhlas.stream/radio_dab_praha.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "6863"
     },
     "22": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "22",
         "name": "Radio Depeche Mode",
         "logoSvg": "https://radia.cz/media/images/0001/01/406d1bb6997fc37532aa2adfbf20efda1396531c.svg",
@@ -3935,50 +3969,10 @@
                 }
             ]
         },
-        "listened": "4822"
-    },
-    "290": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "290",
-        "name": "\u010cesk\u00fd rozhlas R\u00e1dio Praha",
-        "logoSvg": "https://radia.cz/media/images/0001/01/0d2b86ca844e27410db7602560e4217e174973fd.svg",
-        "logo": "https://radia.cz/media/images/0001/01/c934a3e4c9556e5915fb50caeec93067f8ece60f.png",
-        "link": "https://radia.cz/radia/cesky-rozhlas-radio-praha",
-        "nowplay": null,
-        "playlist": null,
-        "program": "https://radia.cz/data/program/290.xml",
-        "streams": {
-            "stream": [
-                {
-                    "id": "267",
-                    "name": "\u010cesk\u00fd rozhlas R\u00e1dio Praha aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/radio_dab_praha_low.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "268",
-                    "name": "\u010cesk\u00fd rozhlas R\u00e1dio Praha mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/radio_dab_praha.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "4787"
+        "listened": "6571"
     },
     "361": {
-        "@u": "2024-11-09 01:23:17",
+        "@u": "2025-03-31 23:00:12",
         "id": "361",
         "name": "DNB TV Radio",
         "logoSvg": "https://radia.cz/media/default/0001/01/b3a0cdb2bf9cacfdcb73587a9d04c717a4c46e61.svg",
@@ -4043,14 +4037,14 @@
                 }
             ]
         },
-        "listened": "4710"
+        "listened": "6494"
     },
     "332": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "332",
         "name": "Hitr\u00e1dio Contact",
-        "logoSvg": "https://radia.cz/media/images/0001/01/67fbb0bdc4dd26f6ee9f51916d8d51d98fed1d63.svg",
-        "logo": "https://radia.cz/media/images/0001/01/0b4aa729ae2a848979ac877e88b897928cc48b34.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/417bfad5d7f1bc01db35765fb90a1294ca04d5b5.svg",
+        "logo": "https://radia.cz/media/images/0001/01/cb414c9ac8301e5b1634d299067624a4a6ae4fca.png",
         "link": "https://radia.cz/radia/hitradio-contact",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-contact.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-contact.xml",
@@ -4123,10 +4117,104 @@
                 }
             ]
         },
-        "listened": "4474"
+        "listened": "6205"
+    },
+    "285": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "285",
+        "name": "\u010cesk\u00fd rozhlas Liberec",
+        "logoSvg": "https://radia.cz/media/images/0001/01/33b8acea33d87a859374bb87655a148d229140bc.svg",
+        "logo": "https://radia.cz/media/images/0001/01/51757609e6b7907ab18a9ff3770c5ea2097fa0fa.png",
+        "link": "https://radia.cz/radia/cesky-rozhlas-liberec",
+        "nowplay": "https://radia.cz/xmlapp2/nowplay-285.xml",
+        "playlist": "https://radia.cz/xmlapp2/playlist-285.xml",
+        "program": "https://radia.cz/data/program/285.xml",
+        "streams": {
+            "stream": {
+                "id": "258",
+                "name": "\u010cesk\u00fd rozhlas Liberec aac 64kb",
+                "type": "aac",
+                "bitrate": "64",
+                "forAndroid": "1",
+                "forApple": "1",
+                "forBrowser": "1",
+                "url": "https://rozhlas.stream/liberec_low.aac",
+                "defWifi": "0",
+                "def3g": "1"
+            }
+        },
+        "listened": "6117"
+    },
+    "128": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "128",
+        "name": "Fajn Fresh Radio",
+        "logoSvg": "https://radia.cz/media/images/0001/01/179fa04e5f03e78e7907ba8939648c76b1584d28.svg",
+        "logo": "https://radia.cz/media/images/0001/01/dd8f67f30110dc9a622a05ee715561dec4313551.png",
+        "link": "https://radia.cz/radia/fajn-radio-fresh",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/fajn-radio-fresh-2.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/fajn-radio-fresh-2.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "134",
+                    "name": "Fajn Fresh Radio aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.abradio.cz/fajnfresh64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "132",
+                    "name": "Fajn Fresh Radio mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.abradio.cz/fajnfresh128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "136",
+                    "name": "Fajn Fresh Radio aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.abradio.cz/fajnfresh128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "132",
+                    "name": "Fajn Fresh Radio mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice.abradio.cz/fajnfresh128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "4121"
     },
     "11": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "11",
         "name": "Radio Chillout",
         "logoSvg": "https://radia.cz/media/images/0001/01/2a484b04576875dee46649899156d8be8eee5ff7.svg",
@@ -4191,78 +4279,64 @@
                 }
             ]
         },
-        "listened": "3333"
+        "listened": "3655"
     },
-    "128": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "128",
-        "name": "Fajn Fresh Radio",
-        "logoSvg": "https://radia.cz/media/images/0001/01/b85e6feb9da451317be9dfe488097d9c4483c56d.svg",
-        "logo": "https://radia.cz/media/images/0001/01/076c18f219ff699a9b9cc7ae20283319bc0bf22c.png",
-        "link": "https://radia.cz/radia/fajn-radio-fresh",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/fajn-radio-fresh-2.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/fajn-radio-fresh-2.xml",
+    "359": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "359",
+        "name": "Fajn Vibe",
+        "logoSvg": "https://radia.cz/media/default/0001/01/11ccb493e92f0ab782e872ee38d3f5e8893ce304.svg",
+        "logo": "https://radia.cz/media/default/0001/01/ccb1b849ba7a058b0bc318c70ba4d982ffc510d0.png",
+        "link": "https://radia.cz/radia/fajn-vibe",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/fajn-radio-vibe.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/fajn-radio-vibe.xml",
         "program": null,
         "streams": {
-            "stream": [
-                {
-                    "id": "134",
-                    "name": "Fajn Fresh Radio aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.abradio.cz/fajnfresh64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "132",
-                    "name": "Fajn Fresh Radio mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice.abradio.cz/fajnfresh128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
+            "stream": {
+                "id": "501",
+                "name": "Fajn Vibe aac 64kb",
+                "type": "aac",
+                "bitrate": "64",
+                "forAndroid": "1",
+                "forApple": "1",
+                "forBrowser": "1",
+                "url": "https://ice4.radia.cz/fajn_vibe_64.aac",
+                "defWifi": "0",
+                "def3g": "1"
+            }
         },
         "streamsHQ": {
             "stream": [
                 {
-                    "id": "136",
-                    "name": "Fajn Fresh Radio aac 128kb",
+                    "id": "502",
+                    "name": "Fajn Vibe aac 128kb",
                     "type": "aac",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice2.abradio.cz/fajnfresh128.aac",
+                    "url": "https://ice4.radia.cz/fajn_vibe_128.aac",
                     "defWifi": "1",
                     "def3g": "0"
                 },
                 {
-                    "id": "132",
-                    "name": "Fajn Fresh Radio mp3 128kb",
-                    "type": "mp3",
+                    "id": "500",
+                    "name": "Fajn Vibe  128kb",
+                    "type": null,
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice.abradio.cz/fajnfresh128.mp3",
+                    "url": "https://ice3.radia.cz/fajn_vibe_128.mp3",
                     "defWifi": "1",
                     "def3g": "0"
                 }
             ]
         },
-        "listened": "3030"
+        "listened": "3114"
     },
     "15": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "15",
         "name": "Radio Oldies Rock",
         "logoSvg": "https://radia.cz/media/images/0001/01/cb1076a567e6af7c2dd3a3648c515600edc566ff.svg",
@@ -4327,332 +4401,50 @@
                 }
             ]
         },
-        "listened": "2608"
+        "listened": "2983"
     },
-    "104": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "104",
-        "name": "Alternative Times Radio",
-        "logoSvg": "https://radia.cz/media/images/0001/01/48cd28c2dab73f011e8e64dc0919ef57a7374883.svg",
-        "logo": "https://radia.cz/media/images/0001/01/8f43b4d9e3889cc9100c4b2d6e875b39f8cea4fc.png",
-        "link": "https://radia.cz/radia/alternative-times-radio",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/myab54.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/myab54.xml",
+    "197": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "197",
+        "name": "R\u00e1dio Tloskov",
+        "logoSvg": "https://radia.cz/media/images/0001/01/29c8b61194147731f8551c5385e1392c9e9e0ee9.svg",
+        "logo": "https://radia.cz/media/images/0001/01/3132696747d58d8892a6dc7fc69378d8bff3e4c0.png",
+        "link": "https://radia.cz/radia/radio-tloskov",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/myab-85.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/myab-85.xml",
         "program": null,
         "streams": {
             "stream": [
                 {
-                    "id": "102",
-                    "name": "Alternative Times Radio aac 64kb",
+                    "id": "185",
+                    "name": "R\u00e1dio Tloskov aac 64kb",
                     "type": "aac",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/alternative64.aac",
+                    "url": "https://ice2.radia.cz/tloskov64.aac",
                     "defWifi": "0",
                     "def3g": "1"
                 },
                 {
-                    "id": "100",
-                    "name": "Alternative Times Radio mp3 128kb",
+                    "id": "184",
+                    "name": "R\u00e1dio Tloskov mp3 128kb",
                     "type": "mp3",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice3.radia.cz/alternative128.mp3",
+                    "url": "https://ice3.radia.cz/tloskov128.mp3",
                     "defWifi": "1",
                     "def3g": "0"
                 }
             ]
         },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "103",
-                    "name": "Alternative Times Radio aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/alternative128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "100",
-                    "name": "Alternative Times Radio mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice3.radia.cz/alternative128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "2164"
-    },
-    "302": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "302",
-        "name": "\u010cesk\u00fd rozhlas R\u00e1dio Junior P\u00edsni\u010dky",
-        "logoSvg": "https://radia.cz/media/images/0001/01/4befc7f17fd056836f420f97c6b2e788620eaacb.svg",
-        "logo": "https://radia.cz/media/images/0001/01/192baa7def064e598afe46c6c48c8735a866f5c7.png",
-        "link": "https://radia.cz/radia/ceska-rozhlas-junior-mini-pisnicky",
-        "nowplay": null,
-        "playlist": null,
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "297",
-                    "name": "\u010cesk\u00fd rozhlas R\u00e1dio Junior P\u00edsni\u010dky aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/radio_junior_pisnicky_low.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "298",
-                    "name": "\u010cesk\u00fd rozhlas R\u00e1dio Junior P\u00edsni\u010dky mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/radio_junior_pisnicky.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "1957"
-    },
-    "263": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "263",
-        "name": "R\u00e1dio Bene\u0161ov City",
-        "logoSvg": "https://radia.cz/media/images/0001/01/8c4f0c8ad5be9c82d9fdd2d2669cec78b415e9a8.svg",
-        "logo": "https://radia.cz/media/images/0001/01/c3ed247e55006eaf01905911d4e24864152e55e9.png",
-        "link": "https://radia.cz/radia/benesov-city",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/benesov.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/benesov.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "221",
-                    "name": "R\u00e1dio Bene\u0161ov City aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/benesov64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "219",
-                    "name": "R\u00e1dio Bene\u0161ov City mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.radia.cz/benesov128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "1856"
-    },
-    "327": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "327",
-        "name": "Sign\u00e1l R\u00e1dio",
-        "logoSvg": "https://radia.cz/media/images/0001/01/690feb8b1e008ab8faa65859d4e4fa752be86eff.svg",
-        "logo": "https://radia.cz/media/images/0001/01/6048444d04e88f938a2db1515697975c36c7cfe1.png",
-        "link": "https://radia.cz/radia/signal-radio",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-signal.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-signal.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "343",
-                    "name": "Sign\u00e1l R\u00e1dio mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice5.abradio.cz/signal128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "344",
-                    "name": "Sign\u00e1l R\u00e1dio aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.abradio.cz/signal64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "343",
-                    "name": "Sign\u00e1l R\u00e1dio mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice5.abradio.cz/signal128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "345",
-                    "name": "Sign\u00e1l R\u00e1dio aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.abradio.cz/signal128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "348",
-                    "name": "Sign\u00e1l R\u00e1dio aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://stream.rcs.revma.com/9sw1nuvb938uv",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "1798"
-    },
-    "298": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "298",
-        "name": "R\u00e1dio MB",
-        "logoSvg": "https://radia.cz/media/images/0001/01/67f3405f7d2da4bdd9e5aa83f109044b26ac6ec3.svg",
-        "logo": "https://radia.cz/media/images/0001/01/0ac71b7aa25c72eee2511d2fa172800a0dbf44a6.png",
-        "link": "https://radia.cz/radia/radio-mb",
-        "nowplay": "https://radia.cz/xmlapp2/nowplay-298.xml",
-        "playlist": "https://radia.cz/xmlapp2/playlist-298.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "289",
-                    "name": "R\u00e1dio MB aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice3.abradio.cz/radiomb64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "287",
-                    "name": "R\u00e1dio MB mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice3.abradio.cz/radiomb128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "1789"
-    },
-    "359": {
-        "@u": "2024-11-09 01:02:52",
-        "id": "359",
-        "name": "Fajn Vibe",
-        "logoSvg": "https://radia.cz/media/default/0001/01/7853cebca580c31fa572f4fb658e12fe50e1e4e2.svg",
-        "logo": "https://radia.cz/media/default/0001/01/81f651c53c547f9682ddf23cb57fa597da5a68ff.png",
-        "link": "https://radia.cz/radia/fajn-vibe",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/fajn-radio-vibe.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/fajn-radio-vibe.xml",
-        "program": null,
-        "streams": {
-            "stream": {
-                "id": "501",
-                "name": "Fajn Vibe aac 64kb",
-                "type": "aac",
-                "bitrate": "64",
-                "forAndroid": "1",
-                "forApple": "1",
-                "forBrowser": "1",
-                "url": "https://ice4.radia.cz/fajn_vibe_64.aac",
-                "defWifi": "0",
-                "def3g": "1"
-            }
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "502",
-                    "name": "Fajn Vibe aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice4.radia.cz/fajn_vibe_128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "500",
-                    "name": "Fajn Vibe  128kb",
-                    "type": null,
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice3.radia.cz/fajn_vibe_128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "1695"
+        "listened": "2956"
     },
     "56": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "56",
         "name": "Radio Spin 96,2 FM",
         "logoSvg": "https://radia.cz/media/images/0001/01/f29e6789d1049b865d3f47ce525668d11f7802c9.svg",
@@ -4729,10 +4521,158 @@
                 }
             ]
         },
-        "listened": "1687"
+        "listened": "2825"
+    },
+    "104": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "104",
+        "name": "Alternative Times Radio",
+        "logoSvg": "https://radia.cz/media/images/0001/01/48cd28c2dab73f011e8e64dc0919ef57a7374883.svg",
+        "logo": "https://radia.cz/media/images/0001/01/8f43b4d9e3889cc9100c4b2d6e875b39f8cea4fc.png",
+        "link": "https://radia.cz/radia/alternative-times-radio",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/myab54.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/myab54.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "102",
+                    "name": "Alternative Times Radio aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/alternative64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "100",
+                    "name": "Alternative Times Radio mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice3.radia.cz/alternative128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "103",
+                    "name": "Alternative Times Radio aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/alternative128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "100",
+                    "name": "Alternative Times Radio mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice3.radia.cz/alternative128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "2574"
+    },
+    "302": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "302",
+        "name": "\u010cesk\u00fd rozhlas R\u00e1dio Junior P\u00edsni\u010dky",
+        "logoSvg": "https://radia.cz/media/images/0001/01/4befc7f17fd056836f420f97c6b2e788620eaacb.svg",
+        "logo": "https://radia.cz/media/images/0001/01/192baa7def064e598afe46c6c48c8735a866f5c7.png",
+        "link": "https://radia.cz/radia/ceska-rozhlas-junior-mini-pisnicky",
+        "nowplay": null,
+        "playlist": null,
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "297",
+                    "name": "\u010cesk\u00fd rozhlas R\u00e1dio Junior P\u00edsni\u010dky aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://rozhlas.stream/radio_junior_pisnicky_low.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "298",
+                    "name": "\u010cesk\u00fd rozhlas R\u00e1dio Junior P\u00edsni\u010dky mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://rozhlas.stream/radio_junior_pisnicky.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "2454"
+    },
+    "227": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "227",
+        "name": "Relaxace - Zp\u011bv pt\u00e1k\u016f",
+        "logoSvg": "https://radia.cz/media/images/0001/01/1a3f20b172042f1b1c4e6ee5a4d1a6dd2b60842a.svg",
+        "logo": "https://radia.cz/media/images/0001/01/b9c6dd11016b108993abfeeb1c4bb6506a2da8b1.png",
+        "link": "https://radia.cz/radia/relaxace-zpev-ptaku",
+        "nowplay": null,
+        "playlist": null,
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "469",
+                    "name": "Relaxace - Zp\u011bv pt\u00e1k\u016f aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/relax-morning-birds64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "468",
+                    "name": "Relaxace - Zp\u011bv pt\u00e1k\u016f mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice6.radia.cz/relax-morning-birds128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "2453"
     },
     "53": {
-        "@u": "2024-11-09 01:23:17",
+        "@u": "2025-03-31 23:00:12",
         "id": "53",
         "name": "E-R\u00e1dio JAZZINEC",
         "logoSvg": "https://radia.cz/media/images/0001/01/f8f4437d2e77424e186f1a9941562a6053b61044.svg",
@@ -4797,134 +4737,214 @@
                 }
             ]
         },
-        "listened": "1564"
+        "listened": "2207"
     },
-    "227": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "227",
-        "name": "Relaxace - Zp\u011bv pt\u00e1k\u016f",
-        "logoSvg": "https://radia.cz/media/images/0001/01/1a3f20b172042f1b1c4e6ee5a4d1a6dd2b60842a.svg",
-        "logo": "https://radia.cz/media/images/0001/01/b9c6dd11016b108993abfeeb1c4bb6506a2da8b1.png",
-        "link": "https://radia.cz/radia/relaxace-zpev-ptaku",
+    "298": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "298",
+        "name": "R\u00e1dio MB",
+        "logoSvg": "https://radia.cz/media/images/0001/01/67f3405f7d2da4bdd9e5aa83f109044b26ac6ec3.svg",
+        "logo": "https://radia.cz/media/images/0001/01/0ac71b7aa25c72eee2511d2fa172800a0dbf44a6.png",
+        "link": "https://radia.cz/radia/radio-mb",
+        "nowplay": "https://radia.cz/xmlapp2/nowplay-298.xml",
+        "playlist": "https://radia.cz/xmlapp2/playlist-298.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "289",
+                    "name": "R\u00e1dio MB aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice3.abradio.cz/radiomb64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "287",
+                    "name": "R\u00e1dio MB mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice3.abradio.cz/radiomb128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "1909"
+    },
+    "327": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "327",
+        "name": "Sign\u00e1l R\u00e1dio",
+        "logoSvg": "https://radia.cz/media/images/0001/01/690feb8b1e008ab8faa65859d4e4fa752be86eff.svg",
+        "logo": "https://radia.cz/media/images/0001/01/6048444d04e88f938a2db1515697975c36c7cfe1.png",
+        "link": "https://radia.cz/radia/signal-radio",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-signal.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-signal.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "343",
+                    "name": "Sign\u00e1l R\u00e1dio mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice5.abradio.cz/signal128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "344",
+                    "name": "Sign\u00e1l R\u00e1dio aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice6.abradio.cz/signal64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                }
+            ]
+        },
+        "streamsHQ": {
+            "stream": [
+                {
+                    "id": "343",
+                    "name": "Sign\u00e1l R\u00e1dio mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice5.abradio.cz/signal128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "345",
+                    "name": "Sign\u00e1l R\u00e1dio aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice6.abradio.cz/signal128.aac",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "348",
+                    "name": "Sign\u00e1l R\u00e1dio aac 128kb",
+                    "type": "aac",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://stream.rcs.revma.com/9sw1nuvb938uv",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "1468"
+    },
+    "295": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "295",
+        "name": "Radio Prague International",
+        "logoSvg": "https://radia.cz/media/images/0001/01/8df4760214819ce9d460f4d881a26c3c12db243c.svg",
+        "logo": "https://radia.cz/media/images/0001/01/d551d62ffbebde1af2afb5b4ee2fb75eaed6df33.png",
+        "link": "https://radia.cz/radia/radio-prague-international",
         "nowplay": null,
         "playlist": null,
-        "program": null,
+        "program": "https://radia.cz/data/program/295.xml",
         "streams": {
             "stream": [
                 {
-                    "id": "469",
-                    "name": "Relaxace - Zp\u011bv pt\u00e1k\u016f aac 64kb",
+                    "id": "282",
+                    "name": "Radio Prague International aac 64kb",
                     "type": "aac",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/relax-morning-birds64.aac",
+                    "url": "https://rozhlas.stream/radio_prague_int_low.aac",
                     "defWifi": "0",
                     "def3g": "1"
                 },
                 {
-                    "id": "468",
-                    "name": "Relaxace - Zp\u011bv pt\u00e1k\u016f mp3 128kb",
+                    "id": "283",
+                    "name": "Radio Prague International mp3 128kb",
                     "type": "mp3",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice6.radia.cz/relax-morning-birds128.mp3",
+                    "url": "https://rozhlas.stream/radio_prague_int.mp3",
                     "defWifi": "1",
                     "def3g": "0"
                 }
             ]
         },
-        "listened": "1542"
+        "listened": "1390"
     },
-    "257": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "257",
-        "name": "R\u00e1dio Ponte Records",
-        "logoSvg": "https://radia.cz/media/images/0001/01/0d4f70f232afb4038344e309e195a129018109d3.svg",
-        "logo": "https://radia.cz/media/images/0001/01/a058fcc6f3cf999685b76d609c882521829bdaba.png",
-        "link": "https://radia.cz/radia/ponte-records",
-        "nowplay": "https://radia.cz/xmlapp2/nowplay-257.xml",
-        "playlist": "https://radia.cz/xmlapp2/playlist-257.xml",
+    "329": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "329",
+        "name": "Roma R\u00e1dio",
+        "logoSvg": "https://radia.cz/media/images/0001/01/6ee749fcbc7f5568cdf53536a2b00feb068205cc.svg",
+        "logo": "https://radia.cz/media/images/0001/01/f70c36420be3846318b98693d8bc46ec89c80dea.png",
+        "link": "https://radia.cz/radia/roma-radio",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/roma-radio.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/roma-radio.xml",
         "program": null,
         "streams": {
             "stream": [
                 {
-                    "id": "218",
-                    "name": "R\u00e1dio Ponte Records aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.abradio.cz/ponterec64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "216",
-                    "name": "R\u00e1dio Ponte Records mp3 128kb",
+                    "id": "349",
+                    "name": "Roma R\u00e1dio mp3 128kb",
                     "type": "mp3",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice3.abradio.cz/ponterec128.mp3",
+                    "url": "https://ice5.radia.cz/romaradio128.mp3",
                     "defWifi": "1",
                     "def3g": "0"
-                }
-            ]
-        },
-        "listened": "1196"
-    },
-    "228": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "228",
-        "name": "Relaxace - Letn\u00ed bou\u0159ka",
-        "logoSvg": "https://radia.cz/media/images/0001/01/bcca84037efc4ec23c448c276756ff55929fbd16.svg",
-        "logo": "https://radia.cz/media/images/0001/01/ae2c14e5e59f08d76d2545d387f8ae2437c12876.png",
-        "link": "https://radia.cz/radia/relaxace-letni-bourka",
-        "nowplay": null,
-        "playlist": null,
-        "program": null,
-        "streams": {
-            "stream": [
+                },
                 {
-                    "id": "190",
-                    "name": "Relaxace - Letn\u00ed bou\u0159ka aac 64kb",
+                    "id": "350",
+                    "name": "Roma R\u00e1dio aac 64kb",
                     "type": "aac",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/relax-thunder-rain64.aac",
+                    "url": "https://ice5.radia.cz/romaradio64.aac",
                     "defWifi": "0",
                     "def3g": "1"
-                },
-                {
-                    "id": "189",
-                    "name": "Relaxace - Letn\u00ed bou\u0159ka mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.radia.cz/relax-thunder-rain128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
                 }
             ]
         },
-        "listened": "1058"
+        "listened": "1172"
     },
     "315": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "315",
         "name": "Hitr\u00e1dio Des\u00edtka",
-        "logoSvg": "https://radia.cz/media/images/0001/01/2192f84eda81f788a6f1063a4e542514f15be900.svg",
-        "logo": "https://radia.cz/media/images/0001/01/599d0b222fce0fb8232a4c1aeb9cf7eb1efb603c.png",
+        "logoSvg": "https://radia.cz/media/images/0001/01/78de99f7e738adb8a11064d3e972b53158d2d856.svg",
+        "logo": "https://radia.cz/media/images/0001/01/2e94dd8c1280eb1773cfbda6f0cfa8796edcd563.png",
         "link": "https://radia.cz/radia/hitradio-desitka",
         "nowplay": "https://cdb.radia.cz/content/nowplay/v2/hitradio-desitka.xml",
         "playlist": "https://cdb.radia.cz/content/playlist/v2/hitradio-desitka.xml",
@@ -4985,10 +5005,10 @@
                 }
             ]
         },
-        "listened": "924"
+        "listened": "1150"
     },
     "229": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "229",
         "name": "Relaxace - Mo\u0159e",
         "logoSvg": "https://radia.cz/media/images/0001/01/2771d47cce06c23d99d418c8697096767c9774d7.svg",
@@ -5025,50 +5045,90 @@
                 }
             ]
         },
-        "listened": "907"
+        "listened": "1052"
     },
-    "295": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "295",
-        "name": "Radio Prague International",
-        "logoSvg": "https://radia.cz/media/images/0001/01/8df4760214819ce9d460f4d881a26c3c12db243c.svg",
-        "logo": "https://radia.cz/media/images/0001/01/d551d62ffbebde1af2afb5b4ee2fb75eaed6df33.png",
-        "link": "https://radia.cz/radia/radio-prague-international",
-        "nowplay": null,
-        "playlist": null,
-        "program": "https://radia.cz/data/program/295.xml",
+    "263": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "263",
+        "name": "R\u00e1dio Bene\u0161ov City",
+        "logoSvg": "https://radia.cz/media/images/0001/01/8c4f0c8ad5be9c82d9fdd2d2669cec78b415e9a8.svg",
+        "logo": "https://radia.cz/media/images/0001/01/c3ed247e55006eaf01905911d4e24864152e55e9.png",
+        "link": "https://radia.cz/radia/benesov-city",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/benesov.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/benesov.xml",
+        "program": null,
         "streams": {
             "stream": [
                 {
-                    "id": "282",
-                    "name": "Radio Prague International aac 64kb",
+                    "id": "221",
+                    "name": "R\u00e1dio Bene\u0161ov City aac 64kb",
                     "type": "aac",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://rozhlas.stream/radio_prague_int_low.aac",
+                    "url": "https://ice2.radia.cz/benesov64.aac",
                     "defWifi": "0",
                     "def3g": "1"
                 },
                 {
-                    "id": "283",
-                    "name": "Radio Prague International mp3 128kb",
+                    "id": "219",
+                    "name": "R\u00e1dio Bene\u0161ov City mp3 128kb",
                     "type": "mp3",
                     "bitrate": "128",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://rozhlas.stream/radio_prague_int.mp3",
+                    "url": "https://ice6.radia.cz/benesov128.mp3",
                     "defWifi": "1",
                     "def3g": "0"
                 }
             ]
         },
-        "listened": "858"
+        "listened": "932"
+    },
+    "228": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "228",
+        "name": "Relaxace - Letn\u00ed bou\u0159ka",
+        "logoSvg": "https://radia.cz/media/images/0001/01/bcca84037efc4ec23c448c276756ff55929fbd16.svg",
+        "logo": "https://radia.cz/media/images/0001/01/ae2c14e5e59f08d76d2545d387f8ae2437c12876.png",
+        "link": "https://radia.cz/radia/relaxace-letni-bourka",
+        "nowplay": null,
+        "playlist": null,
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "190",
+                    "name": "Relaxace - Letn\u00ed bou\u0159ka aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice2.radia.cz/relax-thunder-rain64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                },
+                {
+                    "id": "189",
+                    "name": "Relaxace - Letn\u00ed bou\u0159ka mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice6.radia.cz/relax-thunder-rain128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                }
+            ]
+        },
+        "listened": "892"
     },
     "334": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "334",
         "name": "R\u00e1dio Vratislavice",
         "logoSvg": "https://radia.cz/media/images/0001/01/1b19b7a7f547fcf9391110c0c304562fbf45a4fc.svg",
@@ -5105,50 +5165,10 @@
                 }
             ]
         },
-        "listened": "716"
-    },
-    "329": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "329",
-        "name": "Roma R\u00e1dio",
-        "logoSvg": "https://radia.cz/media/images/0001/01/6ee749fcbc7f5568cdf53536a2b00feb068205cc.svg",
-        "logo": "https://radia.cz/media/images/0001/01/f70c36420be3846318b98693d8bc46ec89c80dea.png",
-        "link": "https://radia.cz/radia/roma-radio",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/roma-radio.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/roma-radio.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "349",
-                    "name": "Roma R\u00e1dio mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice5.radia.cz/romaradio128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "350",
-                    "name": "Roma R\u00e1dio aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice5.radia.cz/romaradio64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                }
-            ]
-        },
-        "listened": "573"
+        "listened": "675"
     },
     "341": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "341",
         "name": "R\u00e1dio BojlerRoom",
         "logoSvg": "https://radia.cz/media/images/0001/01/5f75dd2c71cc2919a4a9e3b9bac72f341d0780d1.svg",
@@ -5185,10 +5205,10 @@
                 }
             ]
         },
-        "listened": "516"
+        "listened": "653"
     },
     "324": {
-        "@u": "2024-11-09 01:03:26",
+        "@u": "2025-03-31 23:00:12",
         "id": "324",
         "name": "Radio 1",
         "logoSvg": "https://radia.cz/media/images/0001/01/fa45f721ade5805b5f80480538852a475945fffd.svg",
@@ -5277,50 +5297,10 @@
                 }
             ]
         },
-        "listened": "502"
-    },
-    "246": {
-        "@u": "2024-11-09 01:03:26",
-        "id": "246",
-        "name": "Radio 66",
-        "logoSvg": "https://radia.cz/media/images/0001/01/afa871e0f5c26cc906a75c77b233f41a18e88693.svg",
-        "logo": "https://radia.cz/media/images/0001/01/fed92684089821e1e874dfa30d2785dd637d3b94.png",
-        "link": "https://radia.cz/radia/route-66",
-        "nowplay": null,
-        "playlist": null,
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "202",
-                    "name": "Radio 66 aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/route64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                },
-                {
-                    "id": "201",
-                    "name": "Radio 66 mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice3.radia.cz/route128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "469"
+        "listened": "587"
     },
     "231": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "231",
         "name": "Relaxace - Jedouc\u00ed Vlak",
         "logoSvg": "https://radia.cz/media/images/0001/01/6efc8280296935c27f13021f5b719693ac5f4cda.svg",
@@ -5357,50 +5337,36 @@
                 }
             ]
         },
-        "listened": "401"
+        "listened": "280"
     },
-    "330": {
-        "@u": "2024-11-09 01:23:18",
-        "id": "330",
-        "name": "R\u00e1dio In",
-        "logoSvg": "https://radia.cz/media/images/0001/01/876f992bcff9b4f12a5597352fc3e0f9cc7102fe.svg",
-        "logo": "https://radia.cz/media/images/0001/01/ee92b4b67056a78abb320d5840485386f2e083fb.png",
-        "link": "https://radia.cz/radia/radio-in",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/in-radio.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/in-radio.xml",
+    "312": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "312",
+        "name": "R\u00e1dio Ka\u0161par",
+        "logoSvg": "https://radia.cz/media/images/0001/01/357258f7f8efd9dda59ededd714e2e8816725272.svg",
+        "logo": "https://radia.cz/media/images/0001/01/4c4d41d270ff47fac08dff7a775fd77d527bd239.jpg",
+        "link": "https://radia.cz/radia/radio-kaspar",
+        "nowplay": null,
+        "playlist": null,
         "program": null,
         "streams": {
-            "stream": [
-                {
-                    "id": "355",
-                    "name": "R\u00e1dio In mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice5.abradio.cz/inradio128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "356",
-                    "name": "R\u00e1dio In aac 64kb",
-                    "type": "aac",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice5.abradio.cz/inradio64.aac",
-                    "defWifi": "0",
-                    "def3g": "1"
-                }
-            ]
+            "stream": {
+                "id": "311",
+                "name": "R\u00e1dio Ka\u0161par mp3 128kb",
+                "type": "mp3",
+                "bitrate": "128",
+                "forAndroid": "1",
+                "forApple": "1",
+                "forBrowser": "1",
+                "url": "https://ice6.abradio.cz/kasparlive128.mp3",
+                "defWifi": "1",
+                "def3g": "0"
+            }
         },
-        "listened": "306"
+        "listened": "260"
     },
     "230": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "230",
         "name": "Relaxace - Ohe\u0148 v krbu",
         "logoSvg": "https://radia.cz/media/images/0001/01/618e5d06f6c277730f69489e3738cacb658b98ef.svg",
@@ -5437,10 +5403,90 @@
                 }
             ]
         },
-        "listened": "276"
+        "listened": "251"
+    },
+    "330": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "330",
+        "name": "R\u00e1dio In",
+        "logoSvg": "https://radia.cz/media/images/0001/01/876f992bcff9b4f12a5597352fc3e0f9cc7102fe.svg",
+        "logo": "https://radia.cz/media/images/0001/01/ee92b4b67056a78abb320d5840485386f2e083fb.png",
+        "link": "https://radia.cz/radia/radio-in",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/in-radio.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/in-radio.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "355",
+                    "name": "R\u00e1dio In mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice5.abradio.cz/inradio128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "356",
+                    "name": "R\u00e1dio In aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice5.abradio.cz/inradio64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                }
+            ]
+        },
+        "listened": "209"
+    },
+    "233": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "233",
+        "name": "Kostka R\u00e1dio",
+        "logoSvg": "https://radia.cz/media/images/0001/01/ae0b77a9250438d2ea0a4a5d20bbb82a1dd43e0f.svg",
+        "logo": "https://radia.cz/media/images/0001/01/6c06308cf55d146345ca1094c0323c50ad7012a4.png",
+        "link": "https://radia.cz/radia/kostka-radio",
+        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/kostka.xml",
+        "playlist": "https://cdb.radia.cz/content/playlist/v2/kostka.xml",
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "197",
+                    "name": "Kostka R\u00e1dio mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice6.radia.cz/kostka128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "198",
+                    "name": "Kostka R\u00e1dio mp3 64kb",
+                    "type": "mp3",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice6.radia.cz/kostka64.mp3",
+                    "defWifi": "0",
+                    "def3g": "1"
+                }
+            ]
+        },
+        "listened": "194"
     },
     "160": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "160",
         "name": "WebR\u00e1dio Epigon",
         "logoSvg": "https://radia.cz/media/images/0001/01/47e91183f935a6ac3157c3f6113d04efbc02a95a.svg",
@@ -5477,10 +5523,10 @@
                 }
             ]
         },
-        "listened": "244"
+        "listened": "173"
     },
     "35": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "35",
         "name": "Radio Domino",
         "logoSvg": "https://radia.cz/media/images/0001/01/f550dd52bedbba318a100a852a9afc15b5cc8b9b.svg",
@@ -5529,116 +5575,50 @@
                 }
             ]
         },
-        "listened": "207"
+        "listened": "91"
     },
-    "312": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "312",
-        "name": "R\u00e1dio Ka\u0161par",
-        "logoSvg": "https://radia.cz/media/images/0001/01/357258f7f8efd9dda59ededd714e2e8816725272.svg",
-        "logo": "https://radia.cz/media/images/0001/01/4c4d41d270ff47fac08dff7a775fd77d527bd239.jpg",
-        "link": "https://radia.cz/radia/radio-kaspar",
-        "nowplay": null,
-        "playlist": null,
-        "program": null,
-        "streams": {
-            "stream": {
-                "id": "311",
-                "name": "R\u00e1dio Ka\u0161par mp3 128kb",
-                "type": "mp3",
-                "bitrate": "128",
-                "forAndroid": "1",
-                "forApple": "1",
-                "forBrowser": "1",
-                "url": "https://ice6.abradio.cz/kasparlive128.mp3",
-                "defWifi": "1",
-                "def3g": "0"
-            }
-        },
-        "listened": "136"
-    },
-    "233": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "233",
-        "name": "Kostka R\u00e1dio",
-        "logoSvg": "https://radia.cz/media/images/0001/01/ae0b77a9250438d2ea0a4a5d20bbb82a1dd43e0f.svg",
-        "logo": "https://radia.cz/media/images/0001/01/6c06308cf55d146345ca1094c0323c50ad7012a4.png",
-        "link": "https://radia.cz/radia/kostka-radio",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/kostka.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/kostka.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "197",
-                    "name": "Kostka R\u00e1dio mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.radia.cz/kostka128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "198",
-                    "name": "Kostka R\u00e1dio mp3 64kb",
-                    "type": "mp3",
-                    "bitrate": "64",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice6.radia.cz/kostka64.mp3",
-                    "defWifi": "0",
-                    "def3g": "1"
-                }
-            ]
-        },
-        "listened": "59"
-    },
-    "306": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "306",
-        "name": "R\u00e1dio Svit Zl\u00edn",
-        "logoSvg": "https://radia.cz/media/images/0001/01/ddd8befe6961903ccaafd4c9ec2847ec152897a6.svg",
-        "logo": "https://radia.cz/media/images/0001/01/b7d1f9c5fe7d9ef6d09867ca5db043e937cf21db.png",
-        "link": "https://radia.cz/radia/radio-svit-zlin",
+    "246": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "246",
+        "name": "Radio 66",
+        "logoSvg": "https://radia.cz/media/images/0001/01/afa871e0f5c26cc906a75c77b233f41a18e88693.svg",
+        "logo": "https://radia.cz/media/images/0001/01/fed92684089821e1e874dfa30d2785dd637d3b94.png",
+        "link": "https://radia.cz/radia/route-66",
         "nowplay": null,
         "playlist": null,
         "program": null,
         "streams": {
             "stream": [
                 {
-                    "id": "299",
-                    "name": "R\u00e1dio Svit Zl\u00edn mp3 128kb",
-                    "type": "mp3",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice4.radia.cz/svitzlin128.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "301",
-                    "name": "R\u00e1dio Svit Zl\u00edn aac 64kb",
+                    "id": "202",
+                    "name": "Radio 66 aac 64kb",
                     "type": "aac",
                     "bitrate": "64",
                     "forAndroid": "1",
                     "forApple": "1",
                     "forBrowser": "1",
-                    "url": "https://ice4.radia.cz/svitzlin64.aac",
+                    "url": "https://ice2.radia.cz/route64.aac",
                     "defWifi": "0",
                     "def3g": "1"
+                },
+                {
+                    "id": "201",
+                    "name": "Radio 66 mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice3.radia.cz/route128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
                 }
             ]
         },
-        "listened": "1"
+        "listened": "0"
     },
     "340": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "340",
         "name": "ZUN R\u00e1dio",
         "logoSvg": "https://radia.cz/media/images/0001/01/837d6503be11afaaf7e1a9d89904c9fc62e830c4.svg",
@@ -5678,7 +5658,7 @@
         "listened": "0"
     },
     "348": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "348",
         "name": "R\u00e1dio O 106",
         "logoSvg": "https://radia.cz/media/images/0001/01/f808aeef0e1833f9c3e8e8304791c0e43127cc24.svg",
@@ -5717,8 +5697,48 @@
         },
         "listened": "0"
     },
+    "306": {
+        "@u": "2025-03-31 23:00:12",
+        "id": "306",
+        "name": "R\u00e1dio Svit Zl\u00edn",
+        "logoSvg": "https://radia.cz/media/images/0001/01/ddd8befe6961903ccaafd4c9ec2847ec152897a6.svg",
+        "logo": "https://radia.cz/media/images/0001/01/b7d1f9c5fe7d9ef6d09867ca5db043e937cf21db.png",
+        "link": "https://radia.cz/radia/radio-svit-zlin",
+        "nowplay": null,
+        "playlist": null,
+        "program": null,
+        "streams": {
+            "stream": [
+                {
+                    "id": "299",
+                    "name": "R\u00e1dio Svit Zl\u00edn mp3 128kb",
+                    "type": "mp3",
+                    "bitrate": "128",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice4.radia.cz/svitzlin128.mp3",
+                    "defWifi": "1",
+                    "def3g": "0"
+                },
+                {
+                    "id": "301",
+                    "name": "R\u00e1dio Svit Zl\u00edn aac 64kb",
+                    "type": "aac",
+                    "bitrate": "64",
+                    "forAndroid": "1",
+                    "forApple": "1",
+                    "forBrowser": "1",
+                    "url": "https://ice4.radia.cz/svitzlin64.aac",
+                    "defWifi": "0",
+                    "def3g": "1"
+                }
+            ]
+        },
+        "listened": "0"
+    },
     "335": {
-        "@u": "2024-11-09 01:23:18",
+        "@u": "2025-03-31 23:00:12",
         "id": "335",
         "name": "R\u00e1dio VY\u0160\u0160\u00cd HLAS",
         "logoSvg": "https://radia.cz/media/images/0001/01/7c706e8e574261f569c324824e0443a7b4a38db9.svg",
@@ -5798,7 +5818,7 @@
         "listened": "0"
     },
     "360": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "360",
         "name": "R\u00e1dio Zdrav\u00ed",
         "logoSvg": "https://radia.cz/media/default/0001/01/9da94ab8706d0e50663cf1ca25d36e99f9c2b4e6.svg",
@@ -5863,76 +5883,8 @@
         },
         "listened": "0"
     },
-    "1126": {
-        "@u": "2024-11-09 01:03:27",
-        "id": "1126",
-        "name": "TEST STREAM",
-        "logoSvg": null,
-        "logo": "https://radia.cz/media/default/0001/01/6da1f9ced6f478211c8b153506ce9846ecfa1aea.jpg",
-        "link": "https://radia.cz/radia/test-stream",
-        "nowplay": "https://cdb.radia.cz/content/nowplay/v2/radio-povidka.xml",
-        "playlist": "https://cdb.radia.cz/content/playlist/v2/radio-povidka.xml",
-        "program": null,
-        "streams": {
-            "stream": [
-                {
-                    "id": "506",
-                    "name": "TEST STREAM aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/playlist_test_128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "507",
-                    "name": "TEST STREAM aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/radiozurnal.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "streamsHQ": {
-            "stream": [
-                {
-                    "id": "506",
-                    "name": "TEST STREAM aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://ice2.radia.cz/playlist_test_128.aac",
-                    "defWifi": "1",
-                    "def3g": "0"
-                },
-                {
-                    "id": "507",
-                    "name": "TEST STREAM aac 128kb",
-                    "type": "aac",
-                    "bitrate": "128",
-                    "forAndroid": "1",
-                    "forApple": "1",
-                    "forBrowser": "1",
-                    "url": "https://rozhlas.stream/radiozurnal.mp3",
-                    "defWifi": "1",
-                    "def3g": "0"
-                }
-            ]
-        },
-        "listened": "0"
-    },
     "253": {
-        "@u": "2024-11-09 01:03:27",
+        "@u": "2025-03-31 23:00:12",
         "id": "253",
         "name": "R\u00e1dio BOHEMIA",
         "logoSvg": "https://radia.cz/media/images/0001/01/8695ce15c8e1f63049fa792e307334c9f14c701a.svg",
@@ -5983,5 +5935,5 @@
         },
         "listened": "0"
     },
-    "last_updated": 1731111797
+    "last_updated": 1743454809
 }

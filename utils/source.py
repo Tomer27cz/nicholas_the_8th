@@ -49,14 +49,9 @@ async def url_checker(url):
         return False, e
 
 class GetSource(discord.PCMVolumeTransformer):
-    start_time = time.time()
     ytdl = yt_dlp.YoutubeDL(YTDL_OPTIONS)
-    print(f'yt_dlp.YoutubeDL took {time.time() - start_time} seconds to load')
-
     def __init__(self, glob: GlobalVars, guild_id: int, source: discord.FFmpegPCMAudio):
-        start_time = time.time()
         super().__init__(source, guild(glob, guild_id).options.volume)
-        print(f'GetSource -> __init__ : {time.time() - start_time}')
 
     @classmethod
     async def create_source(cls, glob: GlobalVars, guild_id: int, url: str, source_type: str = 'Video', time_stamp: int=None, video_class=None, attempt: int=0) -> tuple[GetSource, dict]:
@@ -77,7 +72,6 @@ class GetSource(discord.PCMVolumeTransformer):
 
         :return source: discord.FFmpegPCMAudio, additional_data: dict
         """
-        start_time2 = time.time()
         source_ffmpeg_options = {
             'before_options': f'{f"-ss {time_stamp} " if time_stamp else ""}-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5',
             'options': '-vn'
@@ -86,33 +80,18 @@ class GetSource(discord.PCMVolumeTransformer):
         heatmap = None
         subtitles = None
         captions = None
-        print(f'GS -> options : {time.time() - start_time2}')
 
         if source_type == 'Video':
-
-
             org_url = url
-
-            start_time3 = time.time()
             loop = asyncio.get_event_loop()
-            print(f'GS -> loop : {time.time() - start_time3}')
 
-            start_time4 = time.time()
             data = await loop.run_in_executor(None, lambda: cls.ytdl.extract_info(url, download=False))
-            print(f'GS -> data : {time.time() - start_time4}')
 
             if 'entries' in data:
                 data = data['entries'][0]
 
-
-
-
-            start_time5 = time.time()
             url = data['url']
             response, code = await url_checker(url)
-            print(f'GS -> url_checker : {time.time() - start_time5}')
-
-
 
             if not response:
                 log(guild_id, f'Failed to get source', options={'attempt': attempt, 'org_url': org_url, 'code': code, 'url': url},  log_type='error')
@@ -121,10 +100,6 @@ class GetSource(discord.PCMVolumeTransformer):
                 else:
                     attempt += 1
                     return await cls.create_source(glob, guild_id, org_url, source_type, time_stamp, video_class, attempt)
-
-
-
-
 
         if source_type == 'SoundCloud':
             track = glob.sc.resolve(url)

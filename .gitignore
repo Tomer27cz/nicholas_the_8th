@@ -6,6 +6,7 @@ credentials.json
 dev_func/translator/credentials.json
 testing.py
 dev_func/
+dev_test/
 *.py[cod]
 
 # C extensions

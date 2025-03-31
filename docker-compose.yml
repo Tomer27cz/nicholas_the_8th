@@ -1,11 +1,9 @@
 services:
-  bot:
-    profiles:
-      - bot
+  nicholas_the_8th:
     build: .
     command: python -u /app/main.py >> /app/logs/bot.log 2>&1
     privileged: true
     volumes:
       - .:/app
-    container_name: bot
+    container_name: nicholas_the_8th
     restart: always
