@@ -10,3 +10,4 @@ flask-sqlalchemy
 alembic
 xmltodict
 python-dotenv
+httpx
