@@ -2,6 +2,13 @@
 
 ## About
 
+![Maintained](https://img.shields.io/maintenance/no/2024)
+[![GitHub license](https://img.shields.io/github/license/Tomer27cz/nicholas_the_8th)](https://img.shields.io/github/license/Tomer27cz/nicholas_the_8th/blob/master/LICENSE)
+![GitHub Repo stars](https://img.shields.io/github/stars/Tomer27cz/nicholas_the_8th?style=flat)
+![GitHub issues](https://img.shields.io/github/issues/Tomer27cz/nicholas_the_8th?style=flat)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/Tomer27cz/nicholas_the_8th)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Tomer27cz/nicholas_the_8th)
+
 This is a severally stripped down version of the original project [Nicholas the 7th](https://github.com/Tomer27cz/nicholas_the_7th).
 
 ### The bot now only has these features:
